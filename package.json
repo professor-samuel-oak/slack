@@ -1,7 +1,7 @@
 {
-  "name": "professoroak",
+  "name": "professor-samuel-oak-slack",
   "version": "1.0.0",
-  "description": "Professor Oak",
+  "description": "Professor Samuel Oak for Slack",
   "scripts": {
     "debug": "npm run build-dev && node --nolazy --inspect-brk=9229 compiled/server.js",
     "start": "npm run build-dev && npm run server",
@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffreylanters/slackbot-professoroak.git"
+    "url": "git+https://github.com/professor-samuel-oak/slack.git"
   },
   "keywords": [
     "Slackbot"
   ],
-  "author": "Jeffrey Lanters",
-  "license": "ISC",
+  "author": "Prfessor Samuel Oak",
+  "license": "Appache",
   "bugs": {
-    "url": "https://github.com/jeffreylanters/slackbot-professoroak/issues"
+    "url": "https://github.com/professor-samuel-oak/slack/issues"
   },
-  "homepage": "https://github.com/jeffreylanters/slackbot-professoroak#readme",
+  "homepage": "https://github.com/professor-samuel-oak/slack#readme",
   "devDependencies": {
     "@types/node": "^4.0.35",
     "slackbots": "^1.1.0",
