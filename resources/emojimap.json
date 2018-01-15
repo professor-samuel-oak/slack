@@ -1,0 +1,14 @@
+{
+    "types": {
+        "grass": ":leaves:",
+        "fire": ":fire:",
+        "poison": ":syringe:",
+        "flying": ":cloud:",
+        "water": "",
+        "bug": "",
+        "normal": "",
+        "electric": "",
+        "ground": "",
+        "fairy": ""
+    }
+}

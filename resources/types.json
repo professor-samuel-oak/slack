@@ -1,0 +1,992 @@
+[
+    {
+        "id": 1,
+        "name": "normal",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 0
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 1
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "fighting",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 2
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 4,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 2
+            },
+            {
+                "typeId": 7,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 8,
+                "modifier": 0
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 1
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 14,
+                "modifier": 2
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "flying",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 2
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 7,
+                "modifier": 2
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 2
+            },
+            {
+                "typeId": 12,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "poison",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 5,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 6,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 7,
+                "modifier": 2
+            },
+            {
+                "typeId": 8,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 2
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "ground",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 0
+            },
+            {
+                "typeId": 4,
+                "modifier": 2
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 2
+            },
+            {
+                "typeId": 7,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 2
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 12,
+                "modifier": 2
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "rock",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 3,
+                "modifier": 2
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 6,
+                "modifier": 1
+            },
+            {
+                "typeId": 7,
+                "modifier": 2
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 2
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 1
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 2
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "bug",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 3,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 4,
+                "modifier": 2
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 1
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 9,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 2
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 2
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "ghost",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 0
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 1
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 2
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 1
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 0
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "fire",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 7,
+                "modifier": 2
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 10,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 11,
+                "modifier": 2
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 2
+            },
+            {
+                "typeId": 15,
+                "modifier": 0.5
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "water",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 2
+            },
+            {
+                "typeId": 6,
+                "modifier": 2
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 2
+            },
+            {
+                "typeId": 10,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 11,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 0.5
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "grass",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 4,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 5,
+                "modifier": 2
+            },
+            {
+                "typeId": 6,
+                "modifier": 2
+            },
+            {
+                "typeId": 7,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 10,
+                "modifier": 2
+            },
+            {
+                "typeId": 11,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 0.5
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "electric",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 2
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 0
+            },
+            {
+                "typeId": 6,
+                "modifier": 1
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 2
+            },
+            {
+                "typeId": 11,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 12,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 0.5
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "psychic",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 2
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 2
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 1
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 1
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 1
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "ice",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 2
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 2
+            },
+            {
+                "typeId": 6,
+                "modifier": 1
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 11,
+                "modifier": 2
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 0.5
+            },
+            {
+                "typeId": 15,
+                "modifier": 2
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "dragon",
+        "damageModifiers": [
+            {
+                "typeId": 1,
+                "modifier": 1
+            },
+            {
+                "typeId": 2,
+                "modifier": 1
+            },
+            {
+                "typeId": 3,
+                "modifier": 1
+            },
+            {
+                "typeId": 4,
+                "modifier": 1
+            },
+            {
+                "typeId": 5,
+                "modifier": 1
+            },
+            {
+                "typeId": 6,
+                "modifier": 1
+            },
+            {
+                "typeId": 7,
+                "modifier": 1
+            },
+            {
+                "typeId": 8,
+                "modifier": 1
+            },
+            {
+                "typeId": 9,
+                "modifier": 1
+            },
+            {
+                "typeId": 10,
+                "modifier": 1
+            },
+            {
+                "typeId": 11,
+                "modifier": 1
+            },
+            {
+                "typeId": 12,
+                "modifier": 1
+            },
+            {
+                "typeId": 13,
+                "modifier": 1
+            },
+            {
+                "typeId": 14,
+                "modifier": 1
+            },
+            {
+                "typeId": 15,
+                "modifier": 2
+            }
+        ]
+    }
+]
