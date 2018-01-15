@@ -1,4 +1,6 @@
-# Professor Oak Slack Bot
+# Professor Samuel Oak for Slack &middot; ![npm](https://img.shields.io/badge/build-passing-brightgreen.svg) ![npm](https://img.shields.io/badge/npm-3.0-blue.svg)
+
+Slack integration for Professor Samuel Oak, a real-time Pokémon battle bot for group chat clients.
 
 ## NPM Scripts
 
