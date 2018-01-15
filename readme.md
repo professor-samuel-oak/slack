@@ -47,7 +47,7 @@ The main purpose of this repository is to continue to evolve Professor Samuel Oa
 
 ## Contributing Guide
 
-Read our contributing guide to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to React.
+Read our contributing guide to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Professor Samuel Oak.
 
 ## Good First Issues
 
