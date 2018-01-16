@@ -50,21 +50,13 @@ export default class Pokemon {
     }
 
     public getMoveByID (id: number): PokemonMove {
-        this.moves.map((pokemonMove) => {
-            if (pokemonMove.move.id === id) {
-                return pokemonMove;
-            }
-        });
-        return null;
+        let value = this.moves.find((pokemonMove) => pokemonMove.move.id === id);
+        return value === undefined ? null : value;
     }
 
     public getMoveByName (name: string): PokemonMove {
-        this.moves.map((pokemonMove) => {
-            if (pokemonMove.move.name === name) {
-                return pokemonMove;
-            }
-        });
-        return null;
+        let value = this.moves.find((pokemonMove) => pokemonMove.move.name === name);
+        return value === undefined ? null : value;
     }
     
     public getRandomMove (): PokemonMove {
@@ -76,12 +68,8 @@ export default class Pokemon {
     }
 
     public getStatByName (name: string): Stat {
-        let match = null;
-        this.stats.map ((stat) => {
-            if (stat.name === name)
-                match = stat;
-        });
-        return match;
+        let value = this.stats.find((stat) => stat.name === name);
+        return value === undefined ? null : value;
     }
 
     public getTypes (): Type[] {
@@ -89,21 +77,13 @@ export default class Pokemon {
     }
 
     public getTypeByID (id: number): Type {
-        this.types.map((type) => {
-            if (type.id === id) {
-                return type;
-            }
-        });
-        return null;
+        let value = this.types.find((type) => type.id === id);
+        return value === undefined ? null : value;
     }
 
     public getTypesByName (name: string): Type {
-        this.types.map((type) => {
-            if (type.name === name) {
-                return type;
-            }
-        });
-        return null;
+        let value = this.types.find((type) => type.name === name);
+        return value === undefined ? null : value;
     }
 
     public getEvolutions (): Evolution[] {

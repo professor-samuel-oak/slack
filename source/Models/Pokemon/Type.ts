@@ -29,21 +29,13 @@ export default class Type {
     }
 
     public getDamageModifierAgainstTypeByID (id: number): DamageModifier {
-        let match = null;
-        this.damageModifiers.map ((damageModifier) => {
-            if (damageModifier.typeId === id)
-                match = damageModifier;
-        });
-        return match;
+        let value = this.damageModifiers.find((damageModifier) => damageModifier.typeId === id);
+        return value === undefined ? null : value;
     }
 
     public getDamageModifierAgainstTypeByName (name: string): DamageModifier {
-        let match = null;
         let typeId = TypeService.getTypeByName(name).id;
-        this.damageModifiers.map ((damageModifier) => {
-            if (damageModifier.typeId === typeId)
-                match = damageModifier;
-        });
-        return match;
+        let value = this.damageModifiers.find((damageModifier) => damageModifier.typeId === typeId);
+        return value === undefined ? null : value;
     }
 }

@@ -31,32 +31,21 @@ export default class PartyPokemon extends Pokemon {
     }
 
     public getAilmentByName (name: string): Ailment {
-        this.ailments.map((ailment) => {
-            if (ailment.name === name) {
-                return ailment;
-            }
-        });
-        return null;
+        let value = this.ailments.find((ailment) => ailment.name === name);
+        return value === undefined ? null : value;
     }
 
     public AddAilment (ailment: Ailment): void {
-        this.ailments.map((curAilment) => {
-            if (curAilment.name === ailment.name) {
-                return;
-            }
-        });
+        let value = this.ailments.find((curAilment) => curAilment.name === ailment.name);
+        if (value !== undefined)
+            return;
         this.ailments.push(ailment);
     }
 
     public RemoveAilmentByName (name: string): void {
-        this.ailments.map((curAilment) => {
+        this.ailments.forEach((curAilment, index) => {
             if (curAilment.name === name) {
-                const index = this.ailments.indexOf(curAilment);
-    
-                if (index !== -1) {
-                    this.ailments.splice(index, 1);
-                }
-                return;
+                this.ailments.splice(index, 1);
             }
         });
     }
@@ -66,33 +55,27 @@ export default class PartyPokemon extends Pokemon {
     }
 
     public getStatChangeByName (name: string): Stat {
-        this.statChanges.map((stat) => {
-            if (stat.name === name) {
-                return stat;
-            }
-        });
-        return null;
+        let value = this.statChanges.find((stat) => stat.name === name);
+        return value === undefined ? null : value;
     }
 
     public AddStatChange (statChange: Stat): void {
-        this.statChanges.map((curStatChange) => {
+        let found = false;
+        this.statChanges.forEach((curStatChange) => {
             if (curStatChange.name === statChange.name) {
                 curStatChange.value = statChange.value;
-                return;
+                found = true;
             }
         });
-        this.statChanges.push(statChange);
+
+        if (!found)
+            this.statChanges.push(statChange);
     }
 
     public RemoveStatChangeByName (name: string): void {
-        this.statChanges.map((curStatChange) => {
+        this.statChanges.forEach((curStatChange, index) => {
             if (curStatChange.name === name) {
-                const index = this.statChanges.indexOf(curStatChange);
-    
-                if (index !== -1) {
-                    this.statChanges.splice(index, 1);
-                }
-                return;
+                this.statChanges.splice(index, 1);
             }
         });
     }
