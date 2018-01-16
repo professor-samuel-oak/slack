@@ -4,6 +4,7 @@
         "sourceMap": true,
         "target": "es6",
         "allowSyntheticDefaultImports": true,
+        "module": "commonjs",
         "baseUrl": "source/",
         "typeRoots": [
             "./node_modules/@types"
