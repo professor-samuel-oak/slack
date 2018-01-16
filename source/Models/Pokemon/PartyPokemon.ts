@@ -77,4 +77,35 @@ export default class PartyPokemon extends Pokemon {
             }
         });
     }
+
+    public getBaseStats (): Stat[] {
+        return this.stats;
+    }
+
+    public getBaseStatByName (name: string): Stat {
+        let value = this.stats.find((stat) => stat.name === name);
+        return value === undefined ? null : value;
+    }
+
+    public getStats (): Stat[] {
+        return this.stats.map((stat) => {
+            let statChange = this.getStatChangeByName(stat.name);
+            if (statChange !== null) {
+                stat.value += statChange.value;
+            }
+            return stat;
+        });
+    }
+
+    public getStatByName (name: string): Stat {
+        let value = this.stats.find((stat) => stat.name === name);
+        if (value === undefined)
+            return null;
+        
+        let statChange = this.getStatChangeByName(value.name);
+        if (statChange !== null) {
+            value.value += statChange.value;
+        }
+        return value;
+    }
 }
