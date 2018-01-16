@@ -6,11 +6,11 @@ import Evolution from "Models/Pokemon/Evolution";
 
 export default class Pokemon {
 
-    private abilities: Ability[];
-    private moves: PokemonMove[];
-    private stats: Stat[];
-    private types: Type[];
-    private evolutions: Evolution[];
+    protected abilities: Ability[];
+    protected moves: PokemonMove[];
+    protected stats: Stat[];
+    protected types: Type[];
+    protected evolutions: Evolution[];
     public id: number;
     public name: string;
     public baseExperience: number;

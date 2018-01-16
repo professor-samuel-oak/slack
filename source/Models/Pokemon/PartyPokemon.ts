@@ -4,8 +4,8 @@ import Stat from "Models/Pokemon/Stat";
 
 export default class PartyPokemon extends Pokemon {
 
-    private ailments: Ailment[];
-    private statChanges: Stat[];
+    protected ailments: Ailment[];
+    protected statChanges: Stat[];
     public hasIncreasedCritRate: boolean;
     public level: number;
     public experience: number;

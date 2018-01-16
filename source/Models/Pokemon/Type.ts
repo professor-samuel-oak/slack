@@ -3,7 +3,7 @@ import TypeService from "Services/Type";
 
 export default class Type {
 
-    private damageModifiers: DamageModifier[];
+    protected damageModifiers: DamageModifier[];
     public id: number;
     public name: string;
 

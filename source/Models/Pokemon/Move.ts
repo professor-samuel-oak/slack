@@ -2,7 +2,7 @@ import Stat from "Models/Pokemon/Stat";
 
 export default class Move {
 
-    private statChanges: Stat[];
+    protected statChanges: Stat[];
     public id: number;
     public name: string;
     public typeId: number;
