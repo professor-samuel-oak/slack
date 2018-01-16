@@ -1,7 +1,6 @@
 import Pokemon from "Models/Pokemon/Pokemon";
 import Ailment from "Models/Pokemon/Ailment";
 import Stat from "Models/Pokemon/Stat";
-import StatChange from "Models/Pokemon/StatChange";
 
 export default class PartyPokemon extends Pokemon {
 
