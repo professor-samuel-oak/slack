@@ -363,8 +363,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "attack",
-                "change": 2
+                "name": "attack",
+                "value": 2
             }
         ]
     },
@@ -732,8 +732,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "accuracy",
-                "change": -1
+                "name": "accuracy",
+                "value": -1
             }
         ]
     },
@@ -1023,8 +1023,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": -1
+                "name": "defense",
+                "value": -1
             }
         ]
     },
@@ -1132,8 +1132,8 @@
         "statChance": 100,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": -1
+                "name": "defense",
+                "value": -1
             }
         ]
     },
@@ -1189,8 +1189,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "attack",
-                "change": -1
+                "name": "attack",
+                "value": -1
             }
         ]
     },
@@ -1350,8 +1350,8 @@
         "statChance": 10,
         "statChanges": [
             {
-                "statName": "special-defense",
-                "change": -1
+                "name": "special-defense",
+                "value": -1
             }
         ]
     },
@@ -1615,8 +1615,8 @@
         "statChance": 10,
         "statChanges": [
             {
-                "statName": "speed",
-                "change": -1
+                "name": "speed",
+                "value": -1
             }
         ]
     },
@@ -1646,8 +1646,8 @@
         "statChance": 10,
         "statChanges": [
             {
-                "statName": "attack",
-                "change": -1
+                "name": "attack",
+                "value": -1
             }
         ]
     },
@@ -1963,12 +1963,12 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "attack",
-                "change": 1
+                "name": "attack",
+                "value": 1
             },
             {
-                "statName": "special-attack",
-                "change": 1
+                "name": "special-attack",
+                "value": 1
             }
         ]
     },
@@ -2154,8 +2154,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "speed",
-                "change": -2
+                "name": "speed",
+                "value": -2
             }
         ]
     },
@@ -2497,8 +2497,8 @@
         "statChance": 10,
         "statChanges": [
             {
-                "statName": "special-defense",
-                "change": -1
+                "name": "special-defense",
+                "value": -1
             }
         ]
     },
@@ -2554,8 +2554,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "attack",
-                "change": 1
+                "name": "attack",
+                "value": 1
             }
         ]
     },
@@ -2585,8 +2585,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "speed",
-                "change": 2
+                "name": "speed",
+                "value": 2
             }
         ]
     },
@@ -2746,8 +2746,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": -2
+                "name": "defense",
+                "value": -2
             }
         ]
     },
@@ -2777,8 +2777,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "evasion",
-                "change": 1
+                "name": "evasion",
+                "value": 1
             }
         ]
     },
@@ -2834,8 +2834,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": 1
+                "name": "defense",
+                "value": 1
             }
         ]
     },
@@ -2865,8 +2865,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "evasion",
-                "change": 2
+                "name": "evasion",
+                "value": 2
             }
         ]
     },
@@ -2896,8 +2896,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "accuracy",
-                "change": -1
+                "name": "accuracy",
+                "value": -1
             }
         ]
     },
@@ -2953,8 +2953,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": 1
+                "name": "defense",
+                "value": 1
             }
         ]
     },
@@ -2984,8 +2984,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": 1
+                "name": "defense",
+                "value": 1
             }
         ]
     },
@@ -3015,8 +3015,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": 2
+                "name": "defense",
+                "value": 2
             }
         ]
     },
@@ -3540,8 +3540,8 @@
         "statChance": 10,
         "statChanges": [
             {
-                "statName": "speed",
-                "change": -1
+                "name": "speed",
+                "value": -1
             }
         ]
     },
@@ -3571,8 +3571,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "special-defense",
-                "change": 2
+                "name": "special-defense",
+                "value": 2
             }
         ]
     },
@@ -3602,8 +3602,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "accuracy",
-                "change": -1
+                "name": "accuracy",
+                "value": -1
             }
         ]
     },
@@ -3893,8 +3893,8 @@
         "statChance": 10,
         "statChanges": [
             {
-                "statName": "speed",
-                "change": -1
+                "name": "speed",
+                "value": -1
             }
         ]
     },
@@ -3976,8 +3976,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "accuracy",
-                "change": -1
+                "name": "accuracy",
+                "value": -1
             }
         ]
     },
@@ -4059,8 +4059,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "defense",
-                "change": 2
+                "name": "defense",
+                "value": 2
             }
         ]
     },
@@ -4272,8 +4272,8 @@
         "statChance": 0,
         "statChanges": [
             {
-                "statName": "attack",
-                "change": 1
+                "name": "attack",
+                "value": 1
             }
         ]
     },
