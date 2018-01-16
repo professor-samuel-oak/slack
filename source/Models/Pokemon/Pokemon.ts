@@ -20,25 +20,21 @@ export default class Pokemon {
         this.name = `${pokemon.name.charAt(0).toUpperCase()}${pokemon.name.slice(1)}`;
         this.baseExperience = pokemon.baseExperience;
 
-        this.abilities = [];
-        pokemon.abilities.map((ability) => {
-            this.abilities.push(new Ability(ability)); });
+        this.abilities = pokemon.abilities.map((ability) => {
+            return new Ability(ability); });
 
-        this.moves = [];
-        pokemon.moves.map ((move) => {
-            this.moves.push(new PokemonMove (move)); });
+        this.moves = pokemon.moves.map ((move) => {
+            return new PokemonMove (move); });
 
-        this.stats = [];
-        pokemon.stats.map ((stat) => {
-            this.stats.push (new Stat (stat)); });
+        this.stats = pokemon.stats.map ((stat) => {
+            return new Stat (stat); });
 
-        this.types = [];
-        pokemon.types.map ((type) => {
-            this.types.push(new Type(type)); });
+        this.types = pokemon.types.map ((type) => {
+            return new Type(type); });
 
         this.evolutions = [];
-        pokemon.evolutions.map((evolution) => {
-            this.evolutions.push(new Evolution(evolution)); });
+        this.evolutions = pokemon.evolutions.map((evolution) => {
+            return new Evolution(evolution); });
     }
 
     public getAbilities (): Ability[] {

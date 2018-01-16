@@ -18,9 +18,8 @@ export default class Type {
         this.id = type.id;
         this.name = type.name;
 
-        this.damageModifiers = [];
-        type.damageModifiers.map((damageModifier) => {
-            this.damageModifiers.push(new DamageModifier(damageModifier));
+        this.damageModifiers = type.damageModifiers.map((damageModifier) => {
+            return new DamageModifier(damageModifier);
         });
     }
 

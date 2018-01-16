@@ -17,13 +17,11 @@ export default class PartyPokemon extends Pokemon {
         this.level = partyPokemon.level;
         this.experience = partyPokemon.experience;
 
-        this.ailments = [];
-        partyPokemon.ailments.map((ailment) => {
-            this.ailments.push(new Ailment(ailment)); });
+        this.ailments = partyPokemon.ailments.map((ailment) => {
+            return new Ailment(ailment); });
 
-        this.statChanges = [];
-        partyPokemon.statChanges.map((statChange) => {
-            this.statChanges.push(new Stat(statChange)); });
+        this.statChanges = partyPokemon.statChanges.map((statChange) => {
+            return new Stat(statChange); });
     }
 
     public getAilments (): Ailment[] {

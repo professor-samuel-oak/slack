@@ -52,9 +52,8 @@ export default class Move {
         this.flinchChance = move.flinchChance;
         this.statChance = move.statChance;
 
-        this.statChanges = [];
-        move.statChanges.map((statChange) => {
-            this.statChanges.push(new Stat(statChange)); });
+        this.statChanges = move.statChanges.map((statChange) => {
+            return new Stat(statChange); });
     }
 
     public getStatChanges (): Stat[] {
