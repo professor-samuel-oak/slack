@@ -13,15 +13,26 @@ export default class PartyPokemon extends Pokemon {
     constructor (partyPokemon: any) {
         super(partyPokemon);
         
-        this.hasIncreasedCritRate = partyPokemon.hasIncreasedCritRate;
-        this.level = partyPokemon.level;
-        this.experience = partyPokemon.experience;
-
-        this.ailments = partyPokemon.ailments.map((ailment) => {
-            return new Ailment(ailment); });
-
-        this.statChanges = partyPokemon.statChanges.map((statChange) => {
-            return new Stat(statChange); });
+        if (partyPokemon instanceof Pokemon) {
+            this.hasIncreasedCritRate = false;
+            this.level = 1;
+            this.experience = 0;
+    
+            this.ailments = [];
+    
+            this.statChanges = [];
+        }
+        else {
+            this.hasIncreasedCritRate = partyPokemon.hasIncreasedCritRate;
+            this.level = partyPokemon.level;
+            this.experience = partyPokemon.experience;
+    
+            this.ailments = partyPokemon.ailments.map((ailment) => {
+                return new Ailment(ailment); });
+    
+            this.statChanges = partyPokemon.statChanges.map((statChange) => {
+                return new Stat(statChange); });
+        }
     }
 
     public getAilments (): Ailment[] {
