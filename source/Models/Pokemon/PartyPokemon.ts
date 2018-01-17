@@ -1,12 +1,11 @@
 import Pokemon from "Models/Pokemon/Pokemon";
 import Ailment from "Models/Pokemon/Ailment";
 import Stat from "Models/Pokemon/Stat";
-import StatChange from "Models/Pokemon/StatChange";
 
 export default class PartyPokemon extends Pokemon {
 
-    private ailments: Ailment[];
-    private statChanges: Stat[];
+    protected ailments: Ailment[];
+    protected statChanges: Stat[];
     public hasIncreasedCritRate: boolean;
     public level: number;
     public experience: number;
@@ -14,17 +13,26 @@ export default class PartyPokemon extends Pokemon {
     constructor (partyPokemon: any) {
         super(partyPokemon);
         
-        this.hasIncreasedCritRate = partyPokemon.hasIncreasedCritRate;
-        this.level = partyPokemon.level;
-        this.experience = partyPokemon.experience;
-
-        this.ailments = [];
-        partyPokemon.ailments.map((ailment) => {
-            this.ailments.push(new Ailment(ailment)); });
-
-        this.statChanges = [];
-        partyPokemon.statChanges.map((statChange) => {
-            this.statChanges.push(new Stat(statChange)); });
+        if (partyPokemon instanceof Pokemon) {
+            this.hasIncreasedCritRate = false;
+            this.level = 1;
+            this.experience = 0;
+    
+            this.ailments = [];
+    
+            this.statChanges = [];
+        }
+        else {
+            this.hasIncreasedCritRate = partyPokemon.hasIncreasedCritRate;
+            this.level = partyPokemon.level;
+            this.experience = partyPokemon.experience;
+    
+            this.ailments = partyPokemon.ailments.map((ailment) => {
+                return new Ailment(ailment); });
+    
+            this.statChanges = partyPokemon.statChanges.map((statChange) => {
+                return new Stat(statChange); });
+        }
     }
 
     public getAilments (): Ailment[] {
@@ -32,32 +40,21 @@ export default class PartyPokemon extends Pokemon {
     }
 
     public getAilmentByName (name: string): Ailment {
-        this.ailments.map((ailment) => {
-            if (ailment.name === name) {
-                return ailment;
-            }
-        });
-        return null;
+        let value = this.ailments.find((ailment) => ailment.name === name);
+        return value === undefined ? null : value;
     }
 
     public AddAilment (ailment: Ailment): void {
-        this.ailments.map((curAilment) => {
-            if (curAilment.name === ailment.name) {
-                return;
-            }
-        });
+        let value = this.ailments.find((curAilment) => curAilment.name === ailment.name);
+        if (value !== undefined)
+            return;
         this.ailments.push(ailment);
     }
 
     public RemoveAilmentByName (name: string): void {
-        this.ailments.map((curAilment) => {
+        this.ailments.forEach((curAilment, index) => {
             if (curAilment.name === name) {
-                const index = this.ailments.indexOf(curAilment);
-    
-                if (index !== -1) {
-                    this.ailments.splice(index, 1);
-                }
-                return;
+                this.ailments.splice(index, 1);
             }
         });
     }
@@ -67,34 +64,59 @@ export default class PartyPokemon extends Pokemon {
     }
 
     public getStatChangeByName (name: string): Stat {
-        this.statChanges.map((stat) => {
-            if (stat.name === name) {
-                return stat;
-            }
-        });
-        return null;
+        let value = this.statChanges.find((stat) => stat.name === name);
+        return value === undefined ? null : value;
     }
 
     public AddStatChange (statChange: Stat): void {
-        this.statChanges.map((curStatChange) => {
+        let found = false;
+        this.statChanges.forEach((curStatChange) => {
             if (curStatChange.name === statChange.name) {
                 curStatChange.value = statChange.value;
-                return;
+                found = true;
             }
         });
-        this.statChanges.push(statChange);
+
+        if (!found)
+            this.statChanges.push(statChange);
     }
 
     public RemoveStatChangeByName (name: string): void {
-        this.statChanges.map((curStatChange) => {
+        this.statChanges.forEach((curStatChange, index) => {
             if (curStatChange.name === name) {
-                const index = this.statChanges.indexOf(curStatChange);
-    
-                if (index !== -1) {
-                    this.statChanges.splice(index, 1);
-                }
-                return;
+                this.statChanges.splice(index, 1);
             }
         });
+    }
+
+    public getBaseStats (): Stat[] {
+        return this.stats;
+    }
+
+    public getBaseStatByName (name: string): Stat {
+        let value = this.stats.find((stat) => stat.name === name);
+        return value === undefined ? null : value;
+    }
+
+    public getStats (): Stat[] {
+        return this.stats.map((stat) => {
+            let statChange = this.getStatChangeByName(stat.name);
+            if (statChange !== null) {
+                stat.value += statChange.value;
+            }
+            return stat;
+        });
+    }
+
+    public getStatByName (name: string): Stat {
+        let value = this.stats.find((stat) => stat.name === name);
+        if (value === undefined)
+            return null;
+        
+        let statChange = this.getStatChangeByName(value.name);
+        if (statChange !== null) {
+            value.value += statChange.value;
+        }
+        return value;
     }
 }

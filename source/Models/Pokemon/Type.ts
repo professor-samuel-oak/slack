@@ -3,7 +3,7 @@ import TypeService from "Services/Type";
 
 export default class Type {
 
-    private damageModifiers: DamageModifier[];
+    protected damageModifiers: DamageModifier[];
     public id: number;
     public name: string;
 
@@ -18,9 +18,8 @@ export default class Type {
         this.id = type.id;
         this.name = type.name;
 
-        this.damageModifiers = [];
-        type.damageModifiers.map((damageModifier) => {
-            this.damageModifiers.push(new DamageModifier(damageModifier));
+        this.damageModifiers = type.damageModifiers.map((damageModifier) => {
+            return new DamageModifier(damageModifier);
         });
     }
 
@@ -29,21 +28,13 @@ export default class Type {
     }
 
     public getDamageModifierAgainstTypeByID (id: number): DamageModifier {
-        let match = null;
-        this.damageModifiers.map ((damageModifier) => {
-            if (damageModifier.typeId === id)
-                match = damageModifier;
-        });
-        return match;
+        let value = this.damageModifiers.find((damageModifier) => damageModifier.typeId === id);
+        return value === undefined ? null : value;
     }
 
     public getDamageModifierAgainstTypeByName (name: string): DamageModifier {
-        let match = null;
         let typeId = TypeService.getTypeByName(name).id;
-        this.damageModifiers.map ((damageModifier) => {
-            if (damageModifier.typeId === typeId)
-                match = damageModifier;
-        });
-        return match;
+        let value = this.damageModifiers.find((damageModifier) => damageModifier.typeId === typeId);
+        return value === undefined ? null : value;
     }
 }

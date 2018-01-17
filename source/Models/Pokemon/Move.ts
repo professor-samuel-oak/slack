@@ -1,8 +1,8 @@
-import StatChange from "Models/Pokemon/StatChange";
+import Stat from "Models/Pokemon/Stat";
 
 export default class Move {
 
-    private statChanges: StatChange[];
+    protected statChanges: Stat[];
     public id: number;
     public name: string;
     public typeId: number;
@@ -52,12 +52,11 @@ export default class Move {
         this.flinchChance = move.flinchChance;
         this.statChance = move.statChance;
 
-        this.statChanges = [];
-        move.statChanges.map((statChange) => {
-            this.statChanges.push(new StatChange(statChange)); });
+        this.statChanges = move.statChanges.map((statChange) => {
+            return new Stat(statChange); });
     }
 
-    public getStatChanges (): StatChange[] {
+    public getStatChanges (): Stat[] {
         return this.statChanges;
     }
 }

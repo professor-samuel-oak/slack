@@ -6,11 +6,11 @@ import Evolution from "Models/Pokemon/Evolution";
 
 export default class Pokemon {
 
-    private abilities: Ability[];
-    private moves: PokemonMove[];
-    private stats: Stat[];
-    private types: Type[];
-    private evolutions: Evolution[];
+    protected abilities: Ability[];
+    protected moves: PokemonMove[];
+    protected stats: Stat[];
+    protected types: Type[];
+    protected evolutions: Evolution[];
     public id: number;
     public name: string;
     public baseExperience: number;
@@ -20,25 +20,21 @@ export default class Pokemon {
         this.name = `${pokemon.name.charAt(0).toUpperCase()}${pokemon.name.slice(1)}`;
         this.baseExperience = pokemon.baseExperience;
 
-        this.abilities = [];
-        pokemon.abilities.map((ability) => {
-            this.abilities.push(new Ability(ability)); });
+        this.abilities = pokemon.abilities.map((ability) => {
+            return new Ability(ability); });
 
-        this.moves = [];
-        pokemon.moves.map ((move) => {
-            this.moves.push(new PokemonMove (move)); });
+        this.moves = pokemon.moves.map ((move) => {
+            return new PokemonMove (move); });
 
-        this.stats = [];
-        pokemon.stats.map ((stat) => {
-            this.stats.push (new Stat (stat)); });
+        this.stats = pokemon.stats.map ((stat) => {
+            return new Stat (stat); });
 
-        this.types = [];
-        pokemon.types.map ((type) => {
-            this.types.push(new Type(type)); });
+        this.types = pokemon.types.map ((type) => {
+            return new Type(type); });
 
         this.evolutions = [];
-        pokemon.evolutions.map((evolution) => {
-            this.evolutions.push(new Evolution(evolution)); });
+        this.evolutions = pokemon.evolutions.map((evolution) => {
+            return new Evolution(evolution); });
     }
 
     public getAbilities (): Ability[] {
@@ -50,21 +46,13 @@ export default class Pokemon {
     }
 
     public getMoveByID (id: number): PokemonMove {
-        this.moves.map((pokemonMove) => {
-            if (pokemonMove.move.id === id) {
-                return pokemonMove;
-            }
-        });
-        return null;
+        let value = this.moves.find((pokemonMove) => pokemonMove.move.id === id);
+        return value === undefined ? null : value;
     }
 
     public getMoveByName (name: string): PokemonMove {
-        this.moves.map((pokemonMove) => {
-            if (pokemonMove.move.name === name) {
-                return pokemonMove;
-            }
-        });
-        return null;
+        let value = this.moves.find((pokemonMove) => pokemonMove.move.name === name);
+        return value === undefined ? null : value;
     }
     
     public getRandomMove (): PokemonMove {
@@ -76,12 +64,8 @@ export default class Pokemon {
     }
 
     public getStatByName (name: string): Stat {
-        let match = null;
-        this.stats.map ((stat) => {
-            if (stat.name === name)
-                match = stat;
-        });
-        return match;
+        let value = this.stats.find((stat) => stat.name === name);
+        return value === undefined ? null : value;
     }
 
     public getTypes (): Type[] {
@@ -89,21 +73,13 @@ export default class Pokemon {
     }
 
     public getTypeByID (id: number): Type {
-        this.types.map((type) => {
-            if (type.id === id) {
-                return type;
-            }
-        });
-        return null;
+        let value = this.types.find((type) => type.id === id);
+        return value === undefined ? null : value;
     }
 
     public getTypesByName (name: string): Type {
-        this.types.map((type) => {
-            if (type.name === name) {
-                return type;
-            }
-        });
-        return null;
+        let value = this.types.find((type) => type.name === name);
+        return value === undefined ? null : value;
     }
 
     public getEvolutions (): Evolution[] {
