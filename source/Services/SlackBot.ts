@@ -16,9 +16,11 @@ export default class SlackBotService {
     constructor () {
         SlackBotService.Instance = this;
         
-        this.bot = new Bot (App.Config.slackbot.config);
-        this.bot.on ("start", this.onStart.bind (this));
-        this.bot.on ("message", this.onMessage.bind (this));
+        if (App.Config.slackbot.enabled === true) {
+            this.bot = new Bot (App.Config.slackbot.config);
+            this.bot.on ("start", this.onStart.bind (this));
+            this.bot.on ("message", this.onMessage.bind (this));
+        }
     }
 
     private onStart (): void {
