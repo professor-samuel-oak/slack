@@ -5,6 +5,8 @@ import LoaderService from "Services/Loader";
 import MoveService from "Services/Move";
 import TypeService from "Services/Type";
 import PokemonService from "Services/Pokemon";
+import PartyPokemon from "Models/Pokemon/PartyPokemon";
+import ActionHelper from "Helpers/Action";
 
 export default class App {
 
@@ -27,6 +29,22 @@ export default class App {
         this.moveService = new MoveService();
         this.typeService = new TypeService();
         this.pokemonService = new PokemonService();
+
+        this.doDemo ();
+    }
+
+    private doDemo (): void {
+        let pokemonAttack = PokemonService.getPokemonByID (Math.floor(Math.random() * 152))
+        let partyPokemonAttack = new PartyPokemon(pokemonAttack);
+        let move = pokemonAttack.getRandomMove ();
+        let typesAttack = pokemonAttack.getTypes ().map ((type) => type.name);
+        console.log ("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "Wow, ", `${pokemonAttack.name} (${typesAttack})`, " has great moves such as ", `${move.move.name}`, "!");
+
+        let pokemonDefense = PokemonService.getPokemonByID (Math.floor(Math.random() * 152));
+        let partyPokemoDefense = new PartyPokemon(pokemonDefense);
+        let typesDefense = pokemonDefense.getTypes ().map ((type) => type.name);
+        let damage = ActionHelper.getMoveDamage(partyPokemonAttack, partyPokemoDefense, move.move, false);
+        console.log ("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "If ", `${pokemonAttack.name}`, " would use this move against ", `${pokemonDefense.name} (${typesDefense})`, ", ", `${pokemonAttack.name}`, " could do ", `${damage} damage`, "!");
     }
 }
 
