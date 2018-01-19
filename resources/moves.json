@@ -2162,7 +2162,7 @@
     {
         "id": 82,
         "name": "dragon-rage",
-        "typeId": 16,
+        "typeId": 15,
         "accuracy": 100,
         "effectChance": null,
         "pp": 10,
