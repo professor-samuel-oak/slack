@@ -47,7 +47,11 @@ export default class ActionHelper {
         let defense = move.damageClass === "physical" ? pokemonDefending.getStatByName("defense").value : pokemonDefending.getStatByName("special-defense").value;
 
         // Calculate damage, keeping integer calculations.
-        let damage = Math.floor((Math.floor(Math.floor(Math.floor(2 * level / 5 + 2) * power * attack / defense) / 50) + 2) * modifier);
+        let damage = Math.floor(Math.floor(Math.floor(2 * level / 5 + 2) * power * attack / defense) / 50) + 2;
+        if (damage === 0) {
+            damage = 1;
+        }
+        damage = Math.floor(damage * modifier);
 
         return damage;
     }
