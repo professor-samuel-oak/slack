@@ -30,21 +30,26 @@ export default class App {
         this.typeService = new TypeService();
         this.pokemonService = new PokemonService();
 
-        this.doDemo ();
+        this.doDamageDemo ();
     }
 
-    private doDemo (): void {
+    private doDamageDemo (): void {
         let pokemonAttack = PokemonService.getPokemonByID (Math.floor(Math.random() * 152))
         let partyPokemonAttack = new PartyPokemon(pokemonAttack);
-        let move = pokemonAttack.getRandomMove ();
-        let typesAttack = pokemonAttack.getTypes ().map ((type) => type.name);
-        console.log ("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "Wow, ", `${pokemonAttack.name} (${typesAttack})`, " has great moves such as ", `${move.move.name}`, "!");
+        let move = partyPokemonAttack.getRandomMove ();
+        // Move is often a status move, which never does damage.
+        // to make the demo useful, keep trying until getting a non-status move.
+        while (move.move.damageClass === "status") {
+            move = partyPokemonAttack.getRandomMove ();
+        }
+        let typesAttack = partyPokemonAttack.getTypes ().map ((type) => type.name);
+        console.log ("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "Wow, ", `${partyPokemonAttack.name} (${typesAttack}) (lvl ${partyPokemonAttack.level})`, " has great moves such as ", `${move.move.name} (${move.move.damageClass})`, "!");
 
         let pokemonDefense = PokemonService.getPokemonByID (Math.floor(Math.random() * 152));
         let partyPokemoDefense = new PartyPokemon(pokemonDefense);
         let typesDefense = pokemonDefense.getTypes ().map ((type) => type.name);
         let damage = ActionHelper.getMoveDamage(partyPokemonAttack, partyPokemoDefense, move.move, false);
-        console.log ("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "If ", `${pokemonAttack.name}`, " would use this move against ", `${pokemonDefense.name} (${typesDefense})`, ", ", `${pokemonAttack.name}`, " could do ", `${damage} damage`, "!");
+        console.log ("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "If ", `${partyPokemonAttack.name}`, " would use this move against ", `${partyPokemoDefense.name} (${typesDefense}) (lvl ${partyPokemonAttack.level})`, ", ", `${partyPokemonAttack.name}`, " could do ", `${damage} damage`, "!");
     }
 }
 
