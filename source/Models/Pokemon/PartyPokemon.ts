@@ -1,10 +1,12 @@
 import Pokemon from "Models/Pokemon/Pokemon";
 import Ailment from "Models/Pokemon/Ailment";
 import Stat from "Models/Pokemon/Stat";
+import IV from "Models/Pokemon/IV";
 
 export default class PartyPokemon extends Pokemon {
 
     protected ailments: Ailment[];
+    protected ivs: IV[];
     protected statChanges: Stat[];
     public hasIncreasedCritRate: boolean;
     public level: number;
@@ -33,6 +35,21 @@ export default class PartyPokemon extends Pokemon {
             this.statChanges = partyPokemon.statChanges.map((statChange) => {
                 return new Stat(statChange); });
         }
+
+        let attackIV = Math.floor(Math.random() * 16);
+        let defenseIV = Math.floor(Math.random() * 16);
+        let speedIV = Math.floor(Math.random() * 16);
+        let specialIV = Math.floor(Math.random() * 16);
+        let healthIV = (attackIV << 3 & 8) +
+                       (defenseIV << 2 & 4) +
+                       (speedIV << 1 & 2) +
+                       (specialIV & 1);
+
+        this.ivs.push(new IV({name: "attack", value: attackIV}));
+        this.ivs.push(new IV({name: "defense", value: defenseIV}));
+        this.ivs.push(new IV({name: "speed", value: speedIV}));
+        this.ivs.push(new IV({name: "special", value: specialIV}));
+        this.ivs.push(new IV({name: "hp", value: healthIV}));
     }
 
     public getAilments (): Ailment[] {
@@ -89,6 +106,15 @@ export default class PartyPokemon extends Pokemon {
         });
     }
 
+    public getIVs (): IV[] {
+        return this.ivs;
+    }
+
+    public getIVByName (name: string): IV {
+        let value = this.ivs.find((iv) => iv.name === name);
+        return value === undefined ? null : value;
+    }
+
     public getBaseStats (): Stat[] {
         return this.stats;
     }
@@ -100,10 +126,7 @@ export default class PartyPokemon extends Pokemon {
 
     public getStats (): Stat[] {
         return this.stats.map((stat) => {
-            let statChange = this.getStatChangeByName(stat.name);
-            if (statChange !== null) {
-                stat.value += statChange.value;
-            }
+            stat.value = this.calculateStat(stat);
             return stat;
         });
     }
@@ -113,10 +136,19 @@ export default class PartyPokemon extends Pokemon {
         if (value === undefined)
             return null;
         
-        let statChange = this.getStatChangeByName(value.name);
+        value.value = this.calculateStat(value);
+        return value;
+    }
+
+    private calculateStat(stat: Stat): number {
+        let value = Math.floor((stat.value + this.getIVByName(stat.name).value) * 2 * this.level / 100);
+        value += stat.name === "hp" ? this.level + 10 : 5;
+
+        let statChange = this.getStatChangeByName(stat.name);
         if (statChange !== null) {
-            value.value += statChange.value;
+            value += statChange.value;
         }
+
         return value;
     }
 }
