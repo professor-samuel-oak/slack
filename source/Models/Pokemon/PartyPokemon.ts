@@ -45,6 +45,7 @@ export default class PartyPokemon extends Pokemon {
                        (speedIV << 1 & 2) +
                        (specialIV & 1);
 
+        this.ivs = [];
         this.ivs.push(new IV({name: "attack", value: attackIV}));
         this.ivs.push(new IV({name: "defense", value: defenseIV}));
         this.ivs.push(new IV({name: "speed", value: speedIV}));
@@ -111,6 +112,10 @@ export default class PartyPokemon extends Pokemon {
     }
 
     public getIVByName (name: string): IV {
+        if (name.includes("special")) {
+            name = "special";
+        }
+
         let value = this.ivs.find((iv) => iv.name === name);
         return value === undefined ? null : value;
     }
