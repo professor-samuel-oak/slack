@@ -12,7 +12,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -22,8 +21,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 2,
@@ -38,7 +37,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -48,8 +46,8 @@
         "increasedCritRate": true,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 3,
@@ -64,7 +62,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 5,
         "minTurns": null,
@@ -74,8 +71,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 4,
@@ -90,7 +87,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 5,
         "minTurns": null,
@@ -100,8 +96,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 5,
@@ -116,7 +112,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -126,8 +121,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 6,
@@ -142,7 +137,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -152,8 +146,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 7,
@@ -178,8 +172,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 8,
@@ -204,8 +198,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 9,
@@ -230,8 +224,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 10,
@@ -246,7 +240,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -256,8 +249,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 11,
@@ -272,7 +265,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -282,8 +274,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 12,
@@ -298,7 +290,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -308,8 +299,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 13,
@@ -324,7 +315,6 @@
         "target": "all-opponents",
         "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -334,8 +324,8 @@
         "increasedCritRate": true,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 1
     },
     {
         "id": 14,
@@ -350,7 +340,6 @@
         "target": "user",
         "effect": "Raises the user's Attack by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -360,13 +349,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "attack",
                 "value": 2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 15,
@@ -381,7 +370,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -391,8 +379,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 16,
@@ -407,7 +395,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.\n\nIf the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -417,8 +404,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 17,
@@ -433,7 +420,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -443,8 +429,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 18,
@@ -459,7 +445,6 @@
         "target": "selected-pokemon",
         "effect": "Switches the target out for another of its trainer's Pokémon selected at random.  Wild battles end immediately.\n\nDoesn't affect Pokémon with suction cups or under the effect of ingrain.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -469,8 +454,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 19,
@@ -485,7 +470,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.\n\nThe damage from hail and sandstorm still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be used while gravity is in effect.\n\nThis move cannot be selected by sleep talk.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -495,8 +479,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 1
     },
     {
         "id": 20,
@@ -514,15 +498,15 @@
         "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
-        "minTurns": 5,
-        "maxTurns": 6,
+        "minTurns": 2,
+        "maxTurns": 5,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 21,
@@ -537,7 +521,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -547,8 +530,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 22,
@@ -563,7 +546,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -573,8 +555,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 23,
@@ -589,7 +571,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.\n\nPower is doubled against Pokémon that have used minimize since entering the field.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -599,8 +580,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 30,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 24,
@@ -615,7 +596,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits twice in one turn.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 2,
         "minTurns": null,
@@ -625,8 +605,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 25,
@@ -641,7 +621,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -651,8 +630,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 26,
@@ -667,7 +646,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  If this move misses, is blocked by protect or detect, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.\n\nThis move cannot be used while gravity is in effect.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -677,8 +655,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 27,
@@ -693,7 +671,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -703,8 +680,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 30,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 28,
@@ -719,7 +696,6 @@
         "target": "selected-pokemon",
         "effect": "Lowers the target's accuracy by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -729,13 +705,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "accuracy",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 29,
@@ -750,7 +726,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -760,8 +735,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 30,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 30,
@@ -776,7 +751,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -786,8 +760,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 31,
@@ -802,7 +776,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 5,
         "minTurns": null,
@@ -812,8 +785,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 32,
@@ -828,7 +801,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -838,8 +810,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 33,
@@ -854,7 +826,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -864,8 +835,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 34,
@@ -890,8 +861,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 35,
@@ -909,15 +880,15 @@
         "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
-        "minTurns": 5,
-        "maxTurns": 6,
+        "minTurns": 2,
+        "maxTurns": 5,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 36,
@@ -932,7 +903,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -942,8 +912,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 37,
@@ -958,7 +928,6 @@
         "target": "random-opponent",
         "effect": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -968,8 +937,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 38,
@@ -984,7 +953,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -994,8 +962,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 39,
@@ -1010,7 +978,6 @@
         "target": "all-opponents",
         "effect": "Lowers the target's Defense by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1020,13 +987,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "defense",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 40,
@@ -1051,8 +1018,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 41,
@@ -1077,8 +1044,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 42,
@@ -1093,7 +1060,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 5,
         "minTurns": null,
@@ -1103,8 +1069,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 43,
@@ -1119,7 +1085,6 @@
         "target": "all-opponents",
         "effect": "Lowers the target's Defense by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1129,13 +1094,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 100,
         "statChanges": [
             {
                 "name": "defense",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 44,
@@ -1150,7 +1115,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1160,8 +1124,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 30,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 45,
@@ -1176,7 +1140,6 @@
         "target": "all-opponents",
         "effect": "Lowers the target's Attack by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1186,13 +1149,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "attack",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 46,
@@ -1207,7 +1170,6 @@
         "target": "selected-pokemon",
         "effect": "Switches the target out for another of its trainer's Pokémon selected at random.  Wild battles end immediately.\n\nDoesn't affect Pokémon with suction cups or under the effect of ingrain.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1217,8 +1179,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 47,
@@ -1233,7 +1195,6 @@
         "target": "selected-pokemon",
         "effect": "Puts the target to sleep.",
         "ailment": "sleep",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -1243,8 +1204,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 48,
@@ -1259,7 +1220,6 @@
         "target": "selected-pokemon",
         "effect": "Confuses the target.",
         "ailment": "confusion",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -1269,8 +1229,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 49,
@@ -1285,7 +1245,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts exactly 20 damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1295,8 +1254,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 50,
@@ -1311,18 +1270,17 @@
         "target": "selected-pokemon",
         "effect": "Disables the target's last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the field.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
         "ailment": "disable",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 4,
-        "maxTurns": 4,
+        "maxTurns": 7,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 51,
@@ -1337,7 +1295,6 @@
         "target": "all-opponents",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1347,13 +1304,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 10,
         "statChanges": [
             {
                 "name": "special-defense",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 52,
@@ -1378,8 +1335,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 53,
@@ -1404,8 +1361,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 54,
@@ -1420,7 +1377,6 @@
         "target": "users-field",
         "effect": "Pokémon on the user's side of the field are immune to stat-lowering effects for five turns.\n\nguard swap, heart swap, and power swap may still be used.\n\ndefog used by an opponent will end this effect.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1430,8 +1386,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 55,
@@ -1446,7 +1402,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1456,8 +1411,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 56,
@@ -1472,7 +1427,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1482,8 +1436,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 57,
@@ -1498,7 +1452,6 @@
         "target": "all-other-pokemon",
         "effect": "Inflicts regular damage.\n\nIf the target is in the first turn of dive, this move will hit with double power.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1508,8 +1461,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 58,
@@ -1534,8 +1487,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 59,
@@ -1560,8 +1513,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 60,
@@ -1586,8 +1539,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 61,
@@ -1602,7 +1555,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1612,13 +1564,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 10,
         "statChanges": [
             {
                 "name": "speed",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 62,
@@ -1633,7 +1585,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Attack by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1643,13 +1594,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 10,
         "statChanges": [
             {
                 "name": "attack",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 63,
@@ -1664,7 +1615,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1674,8 +1624,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 64,
@@ -1690,7 +1640,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1700,8 +1649,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 65,
@@ -1716,7 +1665,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1726,8 +1674,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 66,
@@ -1742,7 +1690,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1752,8 +1699,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 67,
@@ -1768,7 +1715,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1778,8 +1724,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 68,
@@ -1794,7 +1740,6 @@
         "target": "specific-move",
         "effect": "Targets the last opposing Pokémon to hit the user with a physical move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1804,8 +1749,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 69,
@@ -1820,7 +1765,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1830,8 +1774,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 70,
@@ -1846,7 +1790,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1856,8 +1799,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 71,
@@ -1872,7 +1815,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1882,8 +1824,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 72,
@@ -1898,7 +1840,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1908,8 +1849,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 73,
@@ -1924,7 +1865,6 @@
         "target": "selected-pokemon",
         "effect": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken.  Has no effect on grass Pokémon.  The seed remains until the target leaves the field.\n\nThe user takes damage instead of being healed if the target has liquid ooze.\n\nrapid spin will remove this effect.\n\nThis effect is passed on by baton pass.",
         "ailment": "leech-seed",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1934,8 +1874,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 74,
@@ -1950,7 +1890,6 @@
         "target": "user",
         "effect": "Raises the user's Attack and Special Attack by one stage each.  During sunny day, raises both stats by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1960,7 +1899,6 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "attack",
@@ -1970,7 +1908,8 @@
                 "name": "special-attack",
                 "value": 1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 75,
@@ -1985,7 +1924,6 @@
         "target": "all-opponents",
         "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1995,8 +1933,8 @@
         "increasedCritRate": true,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 76,
@@ -2011,7 +1949,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring sunny day, the charge turn is skipped.\n\nDuring hail, rain dance, or sandstorm, power is halved.\n\nThis move cannot be selected by sleep talk.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2021,8 +1958,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 1
     },
     {
         "id": 77,
@@ -2037,7 +1974,6 @@
         "target": "selected-pokemon",
         "effect": "Poisons the target.",
         "ailment": "poison",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2047,8 +1983,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 78,
@@ -2063,7 +1999,6 @@
         "target": "selected-pokemon",
         "effect": "Paralyzes the target.",
         "ailment": "paralysis",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2073,8 +2008,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 79,
@@ -2089,7 +2024,6 @@
         "target": "selected-pokemon",
         "effect": "Puts the target to sleep.",
         "ailment": "sleep",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -2099,8 +2033,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 80,
@@ -2115,7 +2049,6 @@
         "target": "random-opponent",
         "effect": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2125,8 +2058,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 81,
@@ -2141,7 +2074,6 @@
         "target": "all-opponents",
         "effect": "Lowers the target's Speed by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2151,13 +2083,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "speed",
                 "value": -2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 82,
@@ -2172,7 +2104,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts exactly 40 damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2182,8 +2113,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 83,
@@ -2201,15 +2132,15 @@
         "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
-        "minTurns": 5,
-        "maxTurns": 6,
+        "minTurns": 2,
+        "maxTurns": 5,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 84,
@@ -2234,8 +2165,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 85,
@@ -2260,8 +2191,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 86,
@@ -2276,7 +2207,6 @@
         "target": "selected-pokemon",
         "effect": "Paralyzes the target.",
         "ailment": "paralysis",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2286,8 +2216,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 87,
@@ -2312,8 +2242,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 88,
@@ -2328,7 +2258,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2338,8 +2267,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 89,
@@ -2354,7 +2283,6 @@
         "target": "all-other-pokemon",
         "effect": "Inflicts regular damage.\n\nIf the target is in the first turn of dig, this move will hit with double power.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2364,8 +2292,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 90,
@@ -2380,7 +2308,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2390,8 +2317,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 91,
@@ -2406,7 +2333,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, earthquake, fissure, and magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be selected by sleep talk.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2416,8 +2342,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 92,
@@ -2432,7 +2358,6 @@
         "target": "selected-pokemon",
         "effect": "Badly poisons the target.  Never misses when used by a poison-type Pokémon.",
         "ailment": "poison",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 15,
@@ -2442,8 +2367,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 93,
@@ -2468,8 +2393,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 94,
@@ -2484,7 +2409,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2494,13 +2418,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 10,
         "statChanges": [
             {
                 "name": "special-defense",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 95,
@@ -2515,7 +2439,6 @@
         "target": "selected-pokemon",
         "effect": "Puts the target to sleep.",
         "ailment": "sleep",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -2525,8 +2448,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 96,
@@ -2541,7 +2464,6 @@
         "target": "user",
         "effect": "Raises the user's Attack by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2551,13 +2473,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "attack",
                 "value": 1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 97,
@@ -2572,7 +2494,6 @@
         "target": "user",
         "effect": "Raises the user's Speed by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2582,13 +2503,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "speed",
                 "value": 2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 98,
@@ -2603,7 +2524,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2613,8 +2533,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 99,
@@ -2629,7 +2549,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2639,8 +2558,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 100,
@@ -2655,7 +2574,6 @@
         "target": "user",
         "effect": "Does nothing.  Wild battles end immediately.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2665,8 +2583,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 101,
@@ -2681,7 +2599,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2691,8 +2608,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 102,
@@ -2707,7 +2624,6 @@
         "target": "selected-pokemon",
         "effect": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome, nor forced by encore.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2717,8 +2633,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 103,
@@ -2733,7 +2649,6 @@
         "target": "selected-pokemon",
         "effect": "Lowers the target's Defense by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2743,13 +2658,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "defense",
                 "value": -2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 104,
@@ -2764,7 +2679,6 @@
         "target": "user",
         "effect": "Raises the user's evasion by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2774,13 +2688,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "evasion",
                 "value": 1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 105,
@@ -2795,7 +2709,6 @@
         "target": "user",
         "effect": "Heals the user for half its max HP.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2805,8 +2718,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 106,
@@ -2821,7 +2734,6 @@
         "target": "user",
         "effect": "Raises the user's Defense by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2831,13 +2743,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "defense",
                 "value": 1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 107,
@@ -2852,7 +2764,6 @@
         "target": "user",
         "effect": "Raises the user's evasion by two stages.\n\nstomp and steamroller have double power against Pokémon that have used this move since entering the field.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2862,13 +2773,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "evasion",
                 "value": 2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 108,
@@ -2883,7 +2794,6 @@
         "target": "selected-pokemon",
         "effect": "Lowers the target's accuracy by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2893,13 +2803,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "accuracy",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 109,
@@ -2914,7 +2824,6 @@
         "target": "selected-pokemon",
         "effect": "Confuses the target.",
         "ailment": "confusion",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -2924,8 +2833,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 110,
@@ -2940,7 +2849,6 @@
         "target": "user",
         "effect": "Raises the user's Defense by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2950,13 +2858,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "defense",
                 "value": 1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 111,
@@ -2971,7 +2879,6 @@
         "target": "user",
         "effect": "Raises user's Defense by one stage.\n\nAfter this move is used, the power of ice ball and rollout are doubled until the user leaves the field.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2981,13 +2888,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "defense",
                 "value": 1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 112,
@@ -3002,7 +2909,6 @@
         "target": "user",
         "effect": "Raises the user's Defense by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3012,13 +2918,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "defense",
                 "value": 2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 113,
@@ -3033,7 +2939,6 @@
         "target": "users-field",
         "effect": "Erects a barrier around the user's side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3043,8 +2948,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 114,
@@ -3059,7 +2964,6 @@
         "target": "entire-field",
         "effect": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of clear body or white smoke.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3069,8 +2973,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 115,
@@ -3085,7 +2989,6 @@
         "target": "users-field",
         "effect": "Erects a barrier around the user's side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3095,8 +2998,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 116,
@@ -3111,7 +3014,6 @@
         "target": "user",
         "effect": "User's critical hit rate is two levels higher until it leaves the field.  If the user has already used focus energy since entering the field, this move will fail.\n\nThis effect is passed on by baton pass.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3121,8 +3023,8 @@
         "increasedCritRate": false,
         "increasesCritRate": true,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 117,
@@ -3137,7 +3039,6 @@
         "target": "user",
         "effect": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep talk.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3147,8 +3048,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 118,
@@ -3163,7 +3064,6 @@
         "target": "user",
         "effect": "Selects any move at random and uses it.  Moves the user already knows are not eligible.  Assist, meta, protection, and reflection moves are also not eligible; specifically, assist, chatter, copycat, counter, covet, destiny bond, detect, endure, feint, focus punch, follow me, helping hand, me first, metronome, mimic, mirror coat, mirror move, protect, quick guard, sketch, sleep talk, snatch, struggle, switcheroo, thief, trick, and wide guard will not be selected by this move.\n\nThis move cannot be copied by mimic or mirror move, nor selected by assist, metronome, or sleep talk.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3173,8 +3073,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 119,
@@ -3189,7 +3089,6 @@
         "target": "selected-pokemon",
         "effect": "Uses the last move targeted at the user by a Pokémon still on the field.  A move counts as targeting the user even if it hit multiple Pokémon, as long as the user was one of them; however, moves targeting the field itself do not count.  If the user has not been targeted by an appropriate move since entering the field, or if no Pokémon that targeted the user remains on the field, this move will fail.\n\nMoves that failed, missed, had no effect, or were blocked are still copied.\n\nAssist moves, time-delayed moves, “meta” moves that operate on other moves/Pokémon/abilities, and some other special moves cannot be copied and are ignored; if the last move to hit the user was such a move, the previous move will be used instead.  The full list of ignored moves is: acid armor, acupressure, after you, agility, ally switch, amnesia, aqua ring, aromatherapy, aromatic mist, assist, autotomize, barrier, baton pass, belch, belly drum, bide, bulk up, calm mind, camouflage, celebrate, charge, coil, conversion, conversion 2, copycat, cosmic power, cotton guard, counter, crafty shield, curse, defend order, defense curl, destiny bond, detect, doom desire, double team, dragon dance, electric terrain, endure, final gambit, flower shield, focus energy, focus punch, follow me, future sight, geomancy, grassy terrain, gravity, growth, grudge, guard split, hail, happy hour, harden, haze, heal bell, heal order, heal pulse, healing wish, helping hand, hold hands, hone claws, howl, imprison, ingrain, ion deluge, iron defense, kings shield, light screen, lucky chant, lunar dance, magic coat, magnet rise, magnetic flux, mat block, me first, meditate, metronome, milk drink, mimic, minimize, mirror coat, mirror move, mist, misty terrain, moonlight, morning sun, mud sport, nasty plot, nature power, perish song, power split, power trick, protect, psych up, quick guard, quiver dance, rage powder, rain dance, recover, recycle, reflect, reflect type, refresh, rest, rock polish, role play, roost, rototiller, safeguard, sandstorm, shadow blast, shadow bolt, shadow half, shadow rush, shadow shed, shadow sky, shadow storm, shadow wave, sharpen, shell smash, shift gear, sketch, slack off, sleep talk, snatch, soft boiled, spikes, spiky shield, spit up, splash, stealth rock, sticky web, stockpile, struggle, substitute, sunny day, swallow, swords dance, synthesis, tail glow, tailwind, teleport, toxic spikes, transform, water sport, wide guard, wish, withdraw and work up.\n\nThis move cannot be selected by assist, metronome, or sleep talk, nor forced by encore.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3199,8 +3098,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 120,
@@ -3215,7 +3114,6 @@
         "target": "all-other-pokemon",
         "effect": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3225,8 +3123,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 121,
@@ -3241,7 +3139,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3251,8 +3148,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 122,
@@ -3277,8 +3174,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 123,
@@ -3303,8 +3200,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 124,
@@ -3329,8 +3226,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 125,
@@ -3345,7 +3242,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3355,8 +3251,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 10,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 126,
@@ -3381,8 +3277,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 127,
@@ -3397,7 +3293,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3407,8 +3302,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 20,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 128,
@@ -3426,15 +3321,15 @@
         "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
-        "minTurns": 5,
-        "maxTurns": 6,
+        "minTurns": 2,
+        "maxTurns": 5,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 129,
@@ -3449,7 +3344,6 @@
         "target": "all-opponents",
         "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3459,8 +3353,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 130,
@@ -3485,8 +3379,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 131,
@@ -3501,7 +3395,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 5,
         "minTurns": null,
@@ -3511,8 +3404,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 132,
@@ -3527,7 +3420,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3537,13 +3429,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 10,
         "statChanges": [
             {
                 "name": "speed",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 133,
@@ -3558,7 +3450,6 @@
         "target": "user",
         "effect": "Raises the user's Special Defense by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3568,13 +3459,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "special-defense",
                 "value": 2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 134,
@@ -3589,7 +3480,6 @@
         "target": "selected-pokemon",
         "effect": "Lowers the target's accuracy by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3599,13 +3489,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "accuracy",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 135,
@@ -3620,7 +3510,6 @@
         "target": "user",
         "effect": "Heals the user for half its max HP.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3630,8 +3519,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 136,
@@ -3646,7 +3535,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  If this move misses, is blocked by protect or detect, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.\n\nThis move cannot be used while gravity is in effect.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3656,8 +3544,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 137,
@@ -3672,7 +3560,6 @@
         "target": "selected-pokemon",
         "effect": "Paralyzes the target.",
         "ailment": "paralysis",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3682,8 +3569,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 138,
@@ -3698,7 +3585,6 @@
         "target": "selected-pokemon",
         "effect": "Fails if not used on a sleeping Pokémon.  Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3708,8 +3594,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 139,
@@ -3724,7 +3610,6 @@
         "target": "all-opponents",
         "effect": "Poisons the target.",
         "ailment": "poison",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3734,8 +3619,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 140,
@@ -3750,7 +3635,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 5,
         "minTurns": null,
@@ -3760,8 +3644,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 141,
@@ -3776,7 +3660,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3786,8 +3669,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 142,
@@ -3802,7 +3685,6 @@
         "target": "selected-pokemon",
         "effect": "Puts the target to sleep.",
         "ailment": "sleep",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -3812,8 +3694,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 143,
@@ -3828,7 +3710,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User charges for one turn before attacking.  Critical hit chance is one level higher than normal.  Has a $effect_chance% chance to make the target flinch.\n\nThis move cannot be selected by sleep talk.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3838,8 +3719,8 @@
         "increasedCritRate": true,
         "increasesCritRate": false,
         "flinchChance": 30,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 1
     },
     {
         "id": 144,
@@ -3854,7 +3735,6 @@
         "target": "selected-pokemon",
         "effect": "User copies the target's species, weight, type, ability, calculated stats (except HP), and moves.  Copied moves will all have 5 PP remaining.  IVs are copied for the purposes of hidden power, but stats are not recalculated.\n\nchoice band, choice scarf, and choice specs stay in effect, and the user must select a new move.\n\nThis move cannot be copied by mirror move, nor forced by encore.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3864,8 +3744,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 145,
@@ -3880,7 +3760,6 @@
         "target": "all-opponents",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3890,13 +3769,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 10,
         "statChanges": [
             {
                 "name": "speed",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 146,
@@ -3921,8 +3800,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 147,
@@ -3937,7 +3816,6 @@
         "target": "selected-pokemon",
         "effect": "Puts the target to sleep.",
         "ailment": "sleep",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -3947,8 +3825,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 148,
@@ -3963,7 +3841,6 @@
         "target": "selected-pokemon",
         "effect": "Lowers the target's accuracy by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3973,13 +3850,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "accuracy",
                 "value": -1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 149,
@@ -3994,7 +3871,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts typeless damage between 50% and 150% of the user's level, selected at random in increments of 10%.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4004,8 +3880,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 150,
@@ -4020,7 +3896,6 @@
         "target": "user",
         "effect": "Does nothing.\n\nThis move cannot be used while gravity is in effect.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4030,8 +3905,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 151,
@@ -4046,7 +3921,6 @@
         "target": "user",
         "effect": "Raises the user's Defense by two stages.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4056,13 +3930,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "defense",
                 "value": 2
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 152,
@@ -4077,7 +3951,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4087,8 +3960,8 @@
         "increasedCritRate": true,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 153,
@@ -4103,7 +3976,6 @@
         "target": "all-other-pokemon",
         "effect": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4113,8 +3985,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 154,
@@ -4129,7 +4001,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 5,
         "minTurns": null,
@@ -4139,8 +4010,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 155,
@@ -4155,7 +4026,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Hits twice in one turn.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": 2,
         "maxHits": 2,
         "minTurns": null,
@@ -4165,8 +4035,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 156,
@@ -4181,7 +4051,6 @@
         "target": "user",
         "effect": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early bird.\n\nThis move fails if the Pokémon cannot fall asleep due to uproar, insomnia, or vital spirit.  It also fails if the Pokémon is at full health or is already asleep.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4191,8 +4060,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 157,
@@ -4207,7 +4076,6 @@
         "target": "all-opponents",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4217,8 +4085,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 30,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 158,
@@ -4233,7 +4101,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4243,8 +4110,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 10,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 159,
@@ -4259,7 +4126,6 @@
         "target": "user",
         "effect": "Raises the user's Attack by one stage.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4269,13 +4135,13 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
         "statChanges": [
             {
                 "name": "attack",
                 "value": 1
             }
-        ]
+        ],
+        "chargeTime": 0
     },
     {
         "id": 160,
@@ -4290,7 +4156,6 @@
         "target": "user",
         "effect": "User's type changes to the type of one of its moves, selected at random.  hidden power and weather ball are treated as normal.  Only moves with a different type are eligible, and curse is never eligible.  If the user has no suitable moves, this move will fail.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4300,8 +4165,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 161,
@@ -4326,8 +4191,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 162,
@@ -4342,7 +4207,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts typeless damage equal to half the target's remaining HP.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4352,8 +4216,8 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 163,
@@ -4368,7 +4232,6 @@
         "target": "selected-pokemon",
         "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4378,8 +4241,8 @@
         "increasedCritRate": true,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     },
     {
         "id": 164,
@@ -4394,7 +4257,6 @@
         "target": "user",
         "effect": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effects, confusion, and flinching.  The effects of smelling salts and wake up slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap berry.  magic coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream eater, embargo, flatter, gastro acid, grudge, heal block, leech seed, lock on, mean look, mimic, mind reader, nightmare, pain split, psycho shift, spider web, sketch, swagger, switcheroo, trick, worry seed, and yawn.  A Pokémon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt absorb absorbing thunder wave), such moves will not be blocked.\n\nlife orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic spikes.\n\nThe doll is passed on by baton pass.  It keeps its existing HP, but uses the replacement Pokémon's stats and types for damage calculation.\n\nAll other effects work as normal.",
         "ailment": "none",
-        "ailmentChange": 0,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -4404,7 +4266,7 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChance": 0,
-        "statChanges": []
+        "statChanges": [],
+        "chargeTime": 0
     }
 ]
