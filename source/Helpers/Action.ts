@@ -4,10 +4,11 @@ import Move from "Models/Pokemon/Move";
 import PartyPokemon from "Models/Pokemon/PartyPokemon";
 import Type from "Models/Pokemon/Type";
 import TypeService from "Services/Type";
+import BattlePokemon from "Models/Pokemon/BattlePokemon";
 
 export default class ActionHelper {
 
-    public static getMoveDamage (pokemonAttacking: PartyPokemon, pokemonDefending: PartyPokemon, move: Move, isCriticalHit: boolean): number {
+    public static getMoveDamage (pokemonAttacking: BattlePokemon, pokemonDefending: BattlePokemon, move: Move, isCriticalHit: boolean): number {
         // Status moves never do damage.
         if (move.damageClass === "status") {
             return 0;
@@ -86,7 +87,7 @@ export default class ActionHelper {
         return effectiveness;
     }
 
-    public static isCritical(pokemon: PartyPokemon, move: Move): boolean {
+    public static isCritical(pokemon: BattlePokemon, move: Move): boolean {
         let threshold = Math.floor(pokemon.getStatByName("speed").value / 2);
         if (pokemon.hasIncreasedCritRate)
             threshold *= 4;
