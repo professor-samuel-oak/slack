@@ -15,7 +15,6 @@ export default class Move {
     public target: string;
     public effect: string;
     public ailment: string;
-    public ailmentChange: number;
     public minHits: number;
     public maxHits: number;
     public minTurns: number;
@@ -25,7 +24,7 @@ export default class Move {
     public increasedCritRate: boolean;
     public increasesCritRate: boolean;
     public flinchChance: number;
-    public statChance: number;
+    public chargeTime: number;
 
     constructor (move: any) {
         this.id = move.id;
@@ -40,7 +39,6 @@ export default class Move {
         this.target = move.target;
         this.effect = move.effect;
         this.ailment = move.ailment;
-        this.ailmentChange = move.ailmentChange;
         this.minHits = move.minHits;
         this.maxHits = move.maxHits;
         this.minTurns = move.minTurns;
@@ -50,7 +48,7 @@ export default class Move {
         this.increasedCritRate = move.increasedCritRate;
         this.increasesCritRate = move.increasesCritRate;
         this.flinchChance = move.flinchChance;
-        this.statChance = move.statChance;
+        this.chargeTime = move.chargeTime;
 
         this.statChanges = move.statChanges.map((statChange) => {
             return new Stat(statChange); });
