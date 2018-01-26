@@ -38,10 +38,19 @@ export default class PartyPokemon extends Pokemon {
         this.ivs.push(new IV({name: "hp", value: healthIV}));
     }
 
+    /**
+     * Get IVs from this pokemon.
+     * @returns Array of IV objects.
+     */
     public getIVs (): IV[] {
         return this.ivs;
     }
 
+    /**
+     * Get IV by name from pokemon.
+     * @param name Name of IV to search for.
+     * @returns IV object or null if not found.
+     */
     public getIVByName (name: string): IV {
         if (name.includes("special")) {
             name = "special";

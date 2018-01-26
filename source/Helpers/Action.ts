@@ -8,6 +8,13 @@ import BattlePokemon from "Models/Pokemon/BattlePokemon";
 
 export default class ActionHelper {
 
+    /**
+     * Calculates a random damage value.
+     * @param pokemonAttacking Attacking pokemon.
+     * @param pokemonDefending Defending pokemon.
+     * @param move Move attacking pokemon uses.
+     * @param isCriticalHit Is the move critical?
+     */
     public static getMoveDamage (pokemonAttacking: BattlePokemon, pokemonDefending: BattlePokemon, move: Move, isCriticalHit: boolean): number {
         // Status moves never do damage.
         if (move.damageClass === "status") {
@@ -57,6 +64,11 @@ export default class ActionHelper {
         return damage;
     }
 
+    /**
+     * Get a move's type effectiveness versus a defender.
+     * @param move Move being used.
+     * @param pokemonDefending Defending pokemon.
+     */
     public static getMoveTypeEffectiveness (move: Move, pokemonDefending: Pokemon): Effectiveness {
         let moveType = TypeService.getTypeByID(move.typeId);
         let pokemonDefendingTypes = pokemonDefending.getTypes();
@@ -69,6 +81,11 @@ export default class ActionHelper {
         return effectiveness;
     }
 
+    /**
+     * Get a pokemon's type effectiveness' versus a defender (given the attacker uses moves of it's own type).
+     * @param pokemonAttacking Attacking pokemon.
+     * @param pokemonDefending Defending pokemon.
+     */
     public static getPokemonTypeEffectiveness (pokemonAttacking: Pokemon, pokemonDefending: Pokemon): Effectiveness[] {
         let pokemonAttackingTypes = pokemonAttacking.getTypes();
         let pokemonDefendingTypes = pokemonDefending.getTypes();
@@ -87,6 +104,11 @@ export default class ActionHelper {
         return effectiveness;
     }
 
+    /**
+     * Calculates randomly if the move by an attacking pokemon will be critical.
+     * @param pokemon Attacking pokemon.
+     * @param move Used move.
+     */
     public static isCritical(pokemon: BattlePokemon, move: Move): boolean {
         let threshold = Math.floor(pokemon.getStatByName("speed").value / 2);
         if (pokemon.hasIncreasedCritRate)

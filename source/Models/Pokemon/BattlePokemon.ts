@@ -3,6 +3,9 @@ import Stat from "Models/Pokemon/Stat";
 import PartyPokemon from "Models/Pokemon/PartyPokemon";
 import Pokemon from "Models/Pokemon/Pokemon";
 
+/**
+ * Pokemon containing battle-specific statistics.
+ */
 export default class BattlePokemon extends PartyPokemon {
 
     protected ailments: Ailment[];
@@ -32,15 +35,28 @@ export default class BattlePokemon extends PartyPokemon {
         }
     }
 
+    /**
+     * Get all ailments from this pokemon.
+     * @returns Array of Ailment objects.
+     */
     public getAilments (): Ailment[] {
         return this.ailments;
     }
 
+    /**
+     * Get ailment from this pokemon by name.
+     * @param name Name of ailment to search for.
+     * @returns Ailment object or null if not found.
+     */
     public getAilmentByName (name: string): Ailment {
         let value = this.ailments.find((ailment) => ailment.name === name);
         return value === undefined ? null : value;
     }
 
+    /**
+     * Add ailment to pokemon.
+     * @param ailment Ailment to add.
+     */
     public AddAilment (ailment: Ailment): void {
         let value = this.ailments.find((curAilment) => curAilment.name === ailment.name);
         if (value !== undefined)
@@ -48,6 +64,10 @@ export default class BattlePokemon extends PartyPokemon {
         this.ailments.push(ailment);
     }
 
+    /**
+     * Remove ailment from pokemon.
+     * @param name Ailment's name to remove.
+     */
     public RemoveAilmentByName (name: string): void {
         this.ailments.forEach((curAilment, index) => {
             if (curAilment.name === name) {
@@ -56,15 +76,28 @@ export default class BattlePokemon extends PartyPokemon {
         });
     }
 
+    /**
+     * Get statistic changes from this pokemon.
+     * @returns Array of Stat objects.
+     */
     public getStatChanges (): Stat[] {
         return this.statChanges;
     }
 
+    /**
+     * Get statistic change by name from pokemon.
+     * @param name Name of statistic to search for.
+     * @returns Stat object or null if not found.
+     */
     public getStatChangeByName (name: string): Stat {
         let value = this.statChanges.find((stat) => stat.name === name);
         return value === undefined ? null : value;
     }
 
+    /**
+     * Add Statistic change to pokemon or modify existing.
+     * @param statChange Statistic to add.
+     */
     public AddStatChange (statChange: Stat): void {
         let found = false;
         this.statChanges.forEach((curStatChange) => {
@@ -78,6 +111,10 @@ export default class BattlePokemon extends PartyPokemon {
             this.statChanges.push(statChange);
     }
 
+    /**
+     * Remove statistic change from pokemon.
+     * @param name Statistic's name to remove.
+     */
     public RemoveStatChangeByName (name: string): void {
         this.statChanges.forEach((curStatChange, index) => {
             if (curStatChange.name === name) {
@@ -86,15 +123,28 @@ export default class BattlePokemon extends PartyPokemon {
         });
     }
 
+    /**
+     * Get base statistics from this pokemon.
+     * @returns Array of Stat objects.
+     */
     public getBaseStats (): Stat[] {
         return this.stats;
     }
 
+    /**
+     * Get base statistic by name from pokemon.
+     * @param name Name of Statistic to search for.
+     * @returns Stat object or null if not found.
+     */
     public getBaseStatByName (name: string): Stat {
         let value = this.stats.find((stat) => stat.name === name);
         return value === undefined ? null : value;
     }
 
+    /**
+     * Get calculated statistics from this pokemon.
+     * @returns Array of Stat objects.
+     */
     public getStats (): Stat[] {
         return this.stats.map((stat) => {
             stat.value = this.calculateStat(stat);
@@ -102,6 +152,11 @@ export default class BattlePokemon extends PartyPokemon {
         });
     }
 
+    /**
+     * Get calculated statistic by name from pokemon.
+     * @param name Name of Statistic to search for.
+     * @returns Stat object or null if not found.
+     */
     public getStatByName (name: string): Stat {
         let value = this.stats.find((stat) => stat.name === name);
         if (value === undefined)
