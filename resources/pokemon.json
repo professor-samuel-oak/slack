@@ -123,27 +123,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 45
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 49
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 49
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -282,27 +282,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 62
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 63
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 80
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -446,27 +446,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 82
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 83
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 100
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 80
             }
         ],
@@ -640,27 +640,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 39
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 52
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 43
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 65
             }
         ],
@@ -838,27 +838,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 58
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 64
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 58
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 80
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 80
             }
         ],
@@ -1056,27 +1056,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 78
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 84
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 78
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 109
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 85
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 100
             }
         ],
@@ -1245,27 +1245,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 44
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 48
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 64
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 43
             }
         ],
@@ -1438,27 +1438,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 59
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 63
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 58
             }
         ],
@@ -1646,27 +1646,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 79
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 83
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 100
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 105
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 78
             }
         ],
@@ -1694,27 +1694,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 45
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 30
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 20
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 20
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -1742,27 +1742,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 20
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 25
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 25
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 30
             }
         ],
@@ -1920,27 +1920,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 90
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -1969,27 +1969,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 35
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 30
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 20
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 20
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 50
             }
         ],
@@ -2018,27 +2018,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 45
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 25
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 25
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 25
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 35
             }
         ],
@@ -2167,27 +2167,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 90
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 40
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 75
             }
         ],
@@ -2311,27 +2311,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 40
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 35
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 56
             }
         ],
@@ -2460,27 +2460,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 63
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 60
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 71
             }
         ],
@@ -2614,27 +2614,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 83
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 75
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 101
             }
         ],
@@ -2773,27 +2773,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 30
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 56
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 25
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 35
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 72
             }
         ],
@@ -2946,27 +2946,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 81
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 97
             }
         ],
@@ -3089,27 +3089,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 60
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 30
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 31
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 31
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -3243,27 +3243,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 90
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 61
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 61
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 100
             }
         ],
@@ -3402,27 +3402,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 35
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 60
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 44
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 54
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -3570,27 +3570,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 69
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 79
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 80
             }
         ],
@@ -3758,27 +3758,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 35
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 55
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 40
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -3926,27 +3926,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 90
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 90
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 110
             }
         ],
@@ -4094,27 +4094,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 75
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 85
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 20
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 30
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 40
             }
         ],
@@ -4272,27 +4272,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 75
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 100
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 110
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 65
             }
         ],
@@ -4425,27 +4425,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 47
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 52
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 40
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 41
             }
         ],
@@ -4603,27 +4603,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 70
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 62
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 67
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 55
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 56
             }
         ],
@@ -4831,27 +4831,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 92
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 87
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 75
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 85
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 76
             }
         ],
@@ -4985,27 +4985,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 46
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 57
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 40
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 40
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 50
             }
         ],
@@ -5158,27 +5158,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 61
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 72
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 57
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 55
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 65
             }
         ],
@@ -5386,27 +5386,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 81
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 102
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 77
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 85
             }
         ],
@@ -5625,27 +5625,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 70
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 48
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 35
             }
         ],
@@ -5851,27 +5851,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 95
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 70
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 73
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 95
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 90
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -5997,27 +5997,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 38
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 41
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 40
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 65
             }
         ],
@@ -6140,27 +6140,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 73
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 76
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 75
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 81
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 100
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 100
             }
         ],
@@ -6363,27 +6363,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 115
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 20
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 25
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 20
             }
         ],
@@ -6591,27 +6591,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 140
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 70
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 45
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -6724,27 +6724,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 30
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 40
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -6873,27 +6873,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 75
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -7012,27 +7012,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 45
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 50
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 75
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 30
             }
         ],
@@ -7156,27 +7156,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 40
             }
         ],
@@ -7305,27 +7305,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 75
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 85
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 110
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 90
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 50
             }
         ],
@@ -7459,27 +7459,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 35
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 70
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 25
             }
         ],
@@ -7623,27 +7623,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 30
             }
         ],
@@ -7782,27 +7782,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 55
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -7971,27 +7971,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 70
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 90
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -8105,27 +8105,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 10
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 55
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 25
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 95
             }
         ],
@@ -8248,27 +8248,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 35
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 100
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 120
             }
         ],
@@ -8401,27 +8401,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 40
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -8564,27 +8564,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 70
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 115
             }
         ],
@@ -8757,27 +8757,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 52
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 48
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -8960,27 +8960,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 82
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 78
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 95
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 85
             }
         ],
@@ -9158,27 +9158,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -9366,27 +9366,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 105
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 95
             }
         ],
@@ -9514,27 +9514,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 70
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 45
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -9662,27 +9662,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 110
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 95
             }
         ],
@@ -9815,27 +9815,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 50
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 40
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 40
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -10018,27 +10018,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -10211,27 +10211,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 90
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -10370,27 +10370,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 25
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 20
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 15
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 105
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -10563,27 +10563,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 35
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 30
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 120
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 105
             }
         ],
@@ -10761,27 +10761,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 50
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 45
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 135
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 95
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 120
             }
         ],
@@ -10934,27 +10934,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 70
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 35
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 35
             }
         ],
@@ -11112,27 +11112,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 100
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 60
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -11295,27 +11295,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 130
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 85
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -11448,27 +11448,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 75
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 30
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 40
             }
         ],
@@ -11607,27 +11607,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 90
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -11761,27 +11761,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 105
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -11935,27 +11935,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 40
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 100
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -12119,27 +12119,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 70
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 80
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 120
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 100
             }
         ],
@@ -12293,27 +12293,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 100
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 30
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 30
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 20
             }
         ],
@@ -12472,27 +12472,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 115
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 35
             }
         ],
@@ -12661,27 +12661,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 120
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 130
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 55
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -12805,27 +12805,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 85
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -12958,27 +12958,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 100
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 80
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 105
             }
         ],
@@ -13171,27 +13171,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 40
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 15
             }
         ],
@@ -13425,27 +13425,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 95
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 75
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 110
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 30
             }
         ],
@@ -13569,27 +13569,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 25
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 35
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 95
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -13722,27 +13722,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 60
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 120
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -13880,27 +13880,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 52
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 90
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 58
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 62
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -14024,27 +14024,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 35
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 85
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 45
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 35
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 75
             }
         ],
@@ -14178,27 +14178,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 110
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 60
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 110
             }
         ],
@@ -14327,27 +14327,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -14485,27 +14485,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 70
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 95
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -14634,27 +14634,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 25
             }
         ],
@@ -14792,27 +14792,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 105
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 105
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 75
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 100
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 50
             }
         ],
@@ -14960,27 +14960,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 30
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 100
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 25
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 40
             }
         ],
@@ -15133,27 +15133,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 180
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -15267,27 +15267,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 30
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 35
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 30
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 35
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 80
             }
         ],
@@ -15406,27 +15406,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 45
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 50
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 45
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 115
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 95
             }
         ],
@@ -15605,27 +15605,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 130
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 110
             }
         ],
@@ -15764,27 +15764,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 35
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 160
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 30
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -15963,27 +15963,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 48
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 45
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 43
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 90
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 42
             }
         ],
@@ -16171,27 +16171,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 85
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 73
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 73
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 115
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 67
             }
         ],
@@ -16334,27 +16334,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 30
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 105
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 90
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 25
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 25
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 50
             }
         ],
@@ -16507,27 +16507,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 130
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 115
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 75
             }
         ],
@@ -16650,27 +16650,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 30
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 55
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 100
             }
         ],
@@ -16808,27 +16808,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 50
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 80
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 150
             }
         ],
@@ -16961,27 +16961,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 40
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 40
             }
         ],
@@ -17120,27 +17120,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 95
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 85
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 125
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -17324,27 +17324,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 50
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 35
             }
         ],
@@ -17537,27 +17537,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 110
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 45
             }
         ],
@@ -17700,27 +17700,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 120
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 53
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 110
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 87
             }
         ],
@@ -17858,27 +17858,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 50
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 105
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 79
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 110
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 76
             }
         ],
@@ -18081,27 +18081,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 55
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 75
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 30
             }
         ],
@@ -18204,27 +18204,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 35
             }
         ],
@@ -18337,27 +18337,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 90
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 120
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -18500,27 +18500,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 85
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 30
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 30
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 25
             }
         ],
@@ -18729,27 +18729,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 105
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 130
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 120
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 40
             }
         ],
@@ -18988,27 +18988,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 250
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 5
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 5
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 105
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 50
             }
         ],
@@ -19151,27 +19151,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 55
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 115
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 40
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -19359,27 +19359,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 105
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -19502,27 +19502,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 30
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 40
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 25
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -19655,27 +19655,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 95
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 85
             }
         ],
@@ -19813,27 +19813,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 45
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 67
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 35
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 63
             }
         ],
@@ -19981,27 +19981,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 92
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 68
             }
         ],
@@ -20174,27 +20174,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 30
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 85
             }
         ],
@@ -20357,27 +20357,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 75
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 85
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 85
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 115
             }
         ],
@@ -20556,27 +20556,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 40
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 45
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 120
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -20694,27 +20694,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 70
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 110
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 55
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 80
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 105
             }
         ],
@@ -20893,27 +20893,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 50
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 35
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 115
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 95
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 95
             }
         ],
@@ -21102,27 +21102,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 83
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 57
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 95
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 85
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 105
             }
         ],
@@ -21290,27 +21290,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 95
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 57
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 85
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 93
             }
         ],
@@ -21438,27 +21438,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 125
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 100
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 55
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 85
             }
         ],
@@ -21601,27 +21601,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 75
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 100
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 40
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 110
             }
         ],
@@ -21649,27 +21649,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 20
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 10
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 55
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 15
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 20
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 80
             }
         ],
@@ -21827,27 +21827,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 95
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 125
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 79
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 100
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 81
             }
         ],
@@ -22021,27 +22021,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 130
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 85
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 80
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 95
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 60
             }
         ],
@@ -22065,27 +22065,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 48
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 48
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 48
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 48
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 48
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 48
             }
         ],
@@ -22203,27 +22203,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 55
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 55
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 50
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 45
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 65
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -22399,27 +22399,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 130
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 110
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 95
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 65
             }
         ],
@@ -22567,27 +22567,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 65
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 110
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 95
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 130
             }
         ],
@@ -22730,27 +22730,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 130
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 60
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 95
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 110
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 65
             }
         ],
@@ -22913,27 +22913,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 65
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 60
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 70
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 85
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 40
             }
         ],
@@ -23056,27 +23056,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 35
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 40
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 100
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 90
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 55
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 35
             }
         ],
@@ -23230,27 +23230,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 70
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 60
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 125
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 115
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -23379,27 +23379,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 30
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 80
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 90
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 55
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 45
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 55
             }
         ],
@@ -23573,27 +23573,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 60
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 115
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 105
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 80
             }
         ],
@@ -23722,27 +23722,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 80
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 105
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 60
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 75
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 130
             }
         ],
@@ -23956,27 +23956,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 160
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 110
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 65
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 110
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 30
             }
         ],
@@ -24109,27 +24109,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 85
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 100
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 95
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 125
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 85
             }
         ],
@@ -24268,27 +24268,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 90
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 85
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 125
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 90
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 100
             }
         ],
@@ -24412,27 +24412,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 90
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 100
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 90
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 125
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 85
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 90
             }
         ],
@@ -24591,27 +24591,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 41
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 64
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 45
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 50
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 50
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 50
             }
         ],
@@ -24779,27 +24779,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 61
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 84
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 65
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 70
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 70
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 70
             }
         ],
@@ -24977,27 +24977,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 91
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 134
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 95
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 100
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 80
             }
         ],
@@ -25231,27 +25231,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 106
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 110
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 90
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 154
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 90
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 130
             }
         ],
@@ -25554,27 +25554,27 @@
         ],
         "stats": [
             {
-                "name": "hp",
+                "name": "HP",
                 "value": 100
             },
             {
-                "name": "attack",
+                "name": "ATTACK",
                 "value": 100
             },
             {
-                "name": "defense",
+                "name": "DEFENSE",
                 "value": 100
             },
             {
-                "name": "special-attack",
+                "name": "SPECIAL_ATTACK",
                 "value": 100
             },
             {
-                "name": "special-defense",
+                "name": "SPECIAL_DEFENSE",
                 "value": 100
             },
             {
-                "name": "speed",
+                "name": "SPEED",
                 "value": 100
             }
         ],
