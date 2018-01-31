@@ -1,10 +1,17 @@
+import IVName from "Enums/IVName";
+
 export default class IV {
 
-    public name: string;
+    public name: IVName;
     public value: number;
 
     constructor (iv: any) {
-        this.name = iv.name;
+        if (typeof iv.name === "string") {
+            this.name = IVName[iv.name as string];
+        }
+        else {
+            this.name = iv.name;
+        }
         this.value = iv.value;
     }
 }

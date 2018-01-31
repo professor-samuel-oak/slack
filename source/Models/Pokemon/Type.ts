@@ -1,22 +1,31 @@
 import DamageModifier from "Models/Pokemon/DamageModifier";
 import TypeService from "Services/Type";
+import TypeName from "Enums/TypeName";
 
 export default class Type {
 
     protected damageModifiers: DamageModifier[];
     public id: number;
-    public name: string;
+    public name: TypeName;
 
     constructor (type: any) {
         if (typeof type === "number") {
             type = TypeService.getTypeByID(type);
         }
         else if (typeof type === "string") {
+            type = TypeService.getTypeByName(TypeName[type as string]);
+        }
+        else if (!("id" in type)) {
             type = TypeService.getTypeByName(type);
         }
 
         this.id = type.id;
-        this.name = type.name;
+        if (typeof type.name === "string") {
+            this.name = TypeName[type.name as string];
+        }
+        else {
+            this.name = type.name;
+        }
 
         this.damageModifiers = type.damageModifiers.map((damageModifier) => {
             return new DamageModifier(damageModifier);
@@ -46,7 +55,7 @@ export default class Type {
      * @param name Type name of damage modifier to search for.
      * @returns Damagemodifier object or null if not found.
      */
-    public getDamageModifierAgainstTypeByName (name: string): DamageModifier {
+    public getDamageModifierAgainstTypeByName (name: TypeName): DamageModifier {
         let typeId = TypeService.getTypeByName(name).id;
         let value = this.damageModifiers.find((damageModifier) => damageModifier.typeId === typeId);
         return value === undefined ? null : value;

@@ -1,4 +1,5 @@
 import Stat from "Models/Pokemon/Stat";
+import AilmentName from "Enums/AilmentName";
 
 export default class Move {
 
@@ -14,7 +15,7 @@ export default class Move {
     public damageClass: string;
     public target: string;
     public effect: string;
-    public ailment: string;
+    public ailment: AilmentName;
     public minHits: number;
     public maxHits: number;
     public minTurns: number;
@@ -38,7 +39,6 @@ export default class Move {
         this.damageClass = move.damageClass;
         this.target = move.target;
         this.effect = move.effect;
-        this.ailment = move.ailment;
         this.minHits = move.minHits;
         this.maxHits = move.maxHits;
         this.minTurns = move.minTurns;
@@ -49,6 +49,13 @@ export default class Move {
         this.increasesCritRate = move.increasesCritRate;
         this.flinchChance = move.flinchChance;
         this.chargeTime = move.chargeTime;
+
+        if (typeof move.ailment === "string") {
+            this.ailment = AilmentName[move.ailment as string];
+        }
+        else {
+            this.ailment = move.ailment;
+        }
 
         this.statChanges = move.statChanges.map((statChange) => {
             return new Stat(statChange); });
