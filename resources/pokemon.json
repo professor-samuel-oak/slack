@@ -5644,7 +5644,9 @@
                 "value": 35
             }
         ],
-        "types": [],
+        "types": [
+            1
+        ],
         "evolutions": [
             {
                 "pokemonId": 36,
@@ -5870,7 +5872,9 @@
                 "value": 60
             }
         ],
-        "types": [],
+        "types": [
+            1
+        ],
         "evolutions": []
     },
     {
