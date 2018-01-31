@@ -1,5 +1,7 @@
 import Stat from "Models/Pokemon/Stat";
 import AilmentName from "Enums/AilmentName";
+import DamageClassName from "Enums/DamageClassName";
+import TargetName from "Enums/TargetName";
 
 export default class Move {
 
@@ -12,8 +14,8 @@ export default class Move {
     public pp: number;
     public priority: number;
     public power: number;
-    public damageClass: string;
-    public target: string;
+    public damageClass: DamageClassName;
+    public target: TargetName;
     public effect: string;
     public ailment: AilmentName;
     public minHits: number;
@@ -50,6 +52,18 @@ export default class Move {
         this.flinchChance = move.flinchChance;
         this.chargeTime = move.chargeTime;
 
+        if (typeof move.damageClass === "string") {
+            this.damageClass = DamageClassName[move.damageClass as string];
+        }
+        else {
+            this.damageClass = move.damageClass;
+        }
+        if (typeof move.target === "string") {
+            this.target = TargetName[move.target as string];
+        }
+        else {
+            this.target = move.target;
+        }
         if (typeof move.ailment === "string") {
             this.ailment = AilmentName[move.ailment as string];
         }
