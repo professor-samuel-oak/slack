@@ -23,15 +23,29 @@ export default class Type {
         });
     }
 
+    /**
+     * Get damage modifiers from this pokemon.
+     * @returns Array of DamageModifier objects.
+     */
     public getDamageModifiers (): DamageModifier[] {
         return this.damageModifiers;
     }
 
+    /**
+     * Get damage modifier against type by id from pokemon.
+     * @param id Type id of damage modifier to search for.
+     * @returns Damagemodifier object or null if not found.
+     */
     public getDamageModifierAgainstTypeByID (id: number): DamageModifier {
         let value = this.damageModifiers.find((damageModifier) => damageModifier.typeId === id);
         return value === undefined ? null : value;
     }
 
+    /**
+     * Get damage modifier against type by name from pokemon.
+     * @param name Type name of damage modifier to search for.
+     * @returns Damagemodifier object or null if not found.
+     */
     public getDamageModifierAgainstTypeByName (name: string): DamageModifier {
         let typeId = TypeService.getTypeByName(name).id;
         let value = this.damageModifiers.find((damageModifier) => damageModifier.typeId === typeId);

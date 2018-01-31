@@ -54,6 +54,10 @@ export default class Move {
             return new Stat(statChange); });
     }
 
+    /**
+     * Get statistic changes caused to target by this move.
+     * @returns Array of Stat objects.
+     */
     public getStatChanges (): Stat[] {
         return this.statChanges;
     }
