@@ -2,6 +2,7 @@ import Pokemon from "Models/Pokemon/Pokemon";
 import Ailment from "Models/Pokemon/Ailment";
 import Stat from "Models/Pokemon/Stat";
 import IV from "Models/Pokemon/IV";
+import IVName from "Enums/IVName";
 
 export default class PartyPokemon extends Pokemon {
 
@@ -31,11 +32,11 @@ export default class PartyPokemon extends Pokemon {
                        (specialIV & 1);
 
         this.ivs = [];
-        this.ivs.push(new IV({name: "attack", value: attackIV}));
-        this.ivs.push(new IV({name: "defense", value: defenseIV}));
-        this.ivs.push(new IV({name: "speed", value: speedIV}));
-        this.ivs.push(new IV({name: "special", value: specialIV}));
-        this.ivs.push(new IV({name: "hp", value: healthIV}));
+        this.ivs.push(new IV({ name: IVName.ATTACK, value: attackIV }));
+        this.ivs.push(new IV({ name: IVName.DEFENSE, value: defenseIV }));
+        this.ivs.push(new IV({ name: IVName.SPEED, value: speedIV }));
+        this.ivs.push(new IV({ name: IVName.SPECIAL, value: specialIV }));
+        this.ivs.push(new IV({ name: IVName.HP, value: healthIV }));
     }
 
     /**
@@ -51,11 +52,7 @@ export default class PartyPokemon extends Pokemon {
      * @param name Name of IV to search for.
      * @returns IV object or null if not found.
      */
-    public getIVByName (name: string): IV {
-        if (name.includes("special")) {
-            name = "special";
-        }
-
+    public getIVByName (name: IVName): IV {
         let value = this.ivs.find((iv) => iv.name === name);
         return value === undefined ? null : value;
     }

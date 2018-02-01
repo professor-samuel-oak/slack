@@ -3,6 +3,8 @@ import PokemonMove from "Models/Pokemon/PokemonMove";
 import Type from "Models/Pokemon/Type";
 import Stat from "Models/Pokemon/Stat";
 import Evolution from "Models/Pokemon/Evolution";
+import StatName from "Enums/StatName";
+import TypeName from "Enums/TypeName";
 
 export default class Pokemon {
 
@@ -94,7 +96,7 @@ export default class Pokemon {
      * @param name Name of statistic to search for.
      * @returns Stat object or null if not found.
      */
-    public getStatByName (name: string): Stat {
+    public getStatByName (name: StatName): Stat {
         let value = this.stats.find((stat) => stat.name === name);
         return value === undefined ? null : value;
     }
@@ -122,7 +124,7 @@ export default class Pokemon {
      * @param name Name of type to search for.
      * @returns Type object or null if not found.
      */
-    public getTypesByName (name: string): Type {
+    public getTypesByName (name: TypeName): Type {
         let value = this.types.find((type) => type.name === name);
         return value === undefined ? null : value;
     }

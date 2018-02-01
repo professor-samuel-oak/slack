@@ -2,6 +2,9 @@ import Ailment from "Models/Pokemon/Ailment";
 import Stat from "Models/Pokemon/Stat";
 import PartyPokemon from "Models/Pokemon/PartyPokemon";
 import Pokemon from "Models/Pokemon/Pokemon";
+import AilmentName from "Enums/AilmentName";
+import StatName from "Enums/StatName";
+import IVService from "Services/IV";
 
 /**
  * Pokemon containing battle-specific statistics.
@@ -11,21 +14,26 @@ export default class BattlePokemon extends PartyPokemon {
     protected ailments: Ailment[];
     protected statChanges: Stat[];
     public hasIncreasedCritRate: boolean;
-    public statusEffect: string;
+    public statusEffect: AilmentName;
 
     constructor (battlePokemon: any) {
         super(battlePokemon);
         
         if (battlePokemon instanceof PartyPokemon || battlePokemon instanceof Pokemon) {
             this.hasIncreasedCritRate = false;
-            this.statusEffect = "";
+            this.statusEffect = AilmentName.NONE;
     
             this.ailments = [];
             this.statChanges = [];
         }
         else {
             this.hasIncreasedCritRate = battlePokemon.hasIncreasedCritRate;
-            this.statusEffect = battlePokemon.statusEffect;
+            if (typeof battlePokemon.statusEffect === "string") {
+                this.statusEffect = AilmentName[battlePokemon.statusEffect as string];
+            }
+            else {
+                this.statusEffect = battlePokemon.statusEffect;
+            }
     
             this.ailments = battlePokemon.ailments.map((ailment) => {
                 return new Ailment(ailment); });
@@ -48,7 +56,7 @@ export default class BattlePokemon extends PartyPokemon {
      * @param name Name of ailment to search for.
      * @returns Ailment object or null if not found.
      */
-    public getAilmentByName (name: string): Ailment {
+    public getAilmentByName (name: AilmentName): Ailment {
         let value = this.ailments.find((ailment) => ailment.name === name);
         return value === undefined ? null : value;
     }
@@ -68,7 +76,7 @@ export default class BattlePokemon extends PartyPokemon {
      * Remove ailment from pokemon.
      * @param name Ailment's name to remove.
      */
-    public RemoveAilmentByName (name: string): void {
+    public RemoveAilmentByName (name: AilmentName): void {
         this.ailments.forEach((curAilment, index) => {
             if (curAilment.name === name) {
                 this.ailments.splice(index, 1);
@@ -89,7 +97,7 @@ export default class BattlePokemon extends PartyPokemon {
      * @param name Name of statistic to search for.
      * @returns Stat object or null if not found.
      */
-    public getStatChangeByName (name: string): Stat {
+    public getStatChangeByName (name: StatName): Stat {
         let value = this.statChanges.find((stat) => stat.name === name);
         return value === undefined ? null : value;
     }
@@ -115,7 +123,7 @@ export default class BattlePokemon extends PartyPokemon {
      * Remove statistic change from pokemon.
      * @param name Statistic's name to remove.
      */
-    public RemoveStatChangeByName (name: string): void {
+    public RemoveStatChangeByName (name: StatName): void {
         this.statChanges.forEach((curStatChange, index) => {
             if (curStatChange.name === name) {
                 this.statChanges.splice(index, 1);
@@ -136,7 +144,7 @@ export default class BattlePokemon extends PartyPokemon {
      * @param name Name of Statistic to search for.
      * @returns Stat object or null if not found.
      */
-    public getBaseStatByName (name: string): Stat {
+    public getBaseStatByName (name: StatName): Stat {
         let value = this.stats.find((stat) => stat.name === name);
         return value === undefined ? null : value;
     }
@@ -157,7 +165,7 @@ export default class BattlePokemon extends PartyPokemon {
      * @param name Name of Statistic to search for.
      * @returns Stat object or null if not found.
      */
-    public getStatByName (name: string): Stat {
+    public getStatByName (name: StatName): Stat {
         let value = this.stats.find((stat) => stat.name === name);
         if (value === undefined)
             return null;
@@ -167,8 +175,8 @@ export default class BattlePokemon extends PartyPokemon {
     }
 
     private calculateStat(stat: Stat): number {
-        let value = Math.floor((stat.value + this.getIVByName(stat.name).value) * 2 * this.level / 100);
-        value += stat.name === "hp" ? this.level + 10 : 5;
+        let value = Math.floor((stat.value + this.getIVByName(IVService.StatNameToIVName(stat.name)).value) * 2 * this.level / 100);
+        value += stat.name === StatName.HP ? this.level + 10 : 5;
 
         let statChange = this.getStatChangeByName(stat.name);
         if (statChange !== null) {

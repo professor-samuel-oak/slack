@@ -1,10 +1,11 @@
 import Move from "Models/Pokemon/Move";
 import MoveService from "Services/Move";
+import MoveLearnMethodName from "Enums/MoveLearnMethodName";
 
 export default class PokemonMove {
 
     public move: Move;
-    public moveLearnMethod: string;
+    public moveLearnMethod: MoveLearnMethodName;
     public levelLearnedAt: number;
 
     constructor (pokemonMove: any) {
@@ -19,7 +20,13 @@ export default class PokemonMove {
         else {
             this.move = pokemonMove.move;
         }
-        this.moveLearnMethod = pokemonMove.moveLearnMethod;
         this.levelLearnedAt = pokemonMove.levelLearnedAt;
+        
+        if (typeof pokemonMove.moveLearnMethod === "string") {
+            this.moveLearnMethod = MoveLearnMethodName[pokemonMove.moveLearnMethod as string];
+        }
+        else {
+            this.moveLearnMethod = pokemonMove.moveLearnMethod;
+        }
     }
 }

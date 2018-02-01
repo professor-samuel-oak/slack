@@ -1,5 +1,6 @@
 import Type from "Models/Pokemon/Type";
 import LoaderService from "Services/Loader";
+import TypeName from "Enums/TypeName";
 
 export default class TypeService {
 
@@ -25,7 +26,7 @@ export default class TypeService {
         return null;
     }
 
-    public static getTypeByName (name: string): Type {
+    public static getTypeByName (name: TypeName): Type {
         this.types.map((type) => {
             if (type.name === name) {
                 return type;
