@@ -4,7 +4,7 @@ import PartyPokemon from "Models/Pokemon/PartyPokemon";
 import Pokemon from "Models/Pokemon/Pokemon";
 import AilmentName from "Enums/AilmentName";
 import StatName from "Enums/StatName";
-import IVService from "Services/IV";
+import IVHelper from "Helpers/IV";
 
 /**
  * Pokemon containing battle-specific statistics.
@@ -25,6 +25,9 @@ export default class BattlePokemon extends PartyPokemon {
     
             this.ailments = [];
             this.statChanges = [];
+
+            this.stats.push(new Stat({ name: StatName.EVASION, value: 100 }));
+            this.stats.push(new Stat({ name: StatName.ACCURACY, value: 100 }));
         }
         else {
             this.hasIncreasedCritRate = battlePokemon.hasIncreasedCritRate;
@@ -175,7 +178,7 @@ export default class BattlePokemon extends PartyPokemon {
     }
 
     private calculateStat(stat: Stat): number {
-        let value = Math.floor((stat.value + this.getIVByName(IVService.StatNameToIVName(stat.name)).value) * 2 * this.level / 100);
+        let value = Math.floor((stat.value + this.getIVByName(IVHelper.statNameToIVName(stat.name)).value) * 2 * this.level / 100);
         value += stat.name === StatName.HP ? this.level + 10 : 5;
 
         let statChange = this.getStatChangeByName(stat.name);

@@ -1,9 +1,9 @@
 import IVName from "Enums/IVName";
 import StatName from "Enums/StatName";
 
-export default class IVService {
+export default class IVHelper {
 
-    public static StatNameToIVName (statName: StatName): IVName {
+    public static statNameToIVName (statName: StatName): IVName {
         switch (statName) {
             case StatName.ATTACK: return IVName.ATTACK;
             case StatName.DEFENSE: return IVName.DEFENSE;
