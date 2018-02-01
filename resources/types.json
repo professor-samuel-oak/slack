@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "normal",
+        "name": "NORMAL",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -67,7 +67,7 @@
     },
     {
         "id": 2,
-        "name": "fighting",
+        "name": "FIGHTING",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -133,7 +133,7 @@
     },
     {
         "id": 3,
-        "name": "flying",
+        "name": "FLYING",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -199,7 +199,7 @@
     },
     {
         "id": 4,
-        "name": "poison",
+        "name": "POISON",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -265,7 +265,7 @@
     },
     {
         "id": 5,
-        "name": "ground",
+        "name": "GROUND",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -331,7 +331,7 @@
     },
     {
         "id": 6,
-        "name": "rock",
+        "name": "ROCK",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -397,7 +397,7 @@
     },
     {
         "id": 7,
-        "name": "bug",
+        "name": "BUG",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -463,7 +463,7 @@
     },
     {
         "id": 8,
-        "name": "ghost",
+        "name": "GHOST",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -529,7 +529,7 @@
     },
     {
         "id": 9,
-        "name": "fire",
+        "name": "FIRE",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -595,7 +595,7 @@
     },
     {
         "id": 10,
-        "name": "water",
+        "name": "WATER",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -661,7 +661,7 @@
     },
     {
         "id": 11,
-        "name": "grass",
+        "name": "GRASS",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -727,7 +727,7 @@
     },
     {
         "id": 12,
-        "name": "electric",
+        "name": "ELECTRIC",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -793,7 +793,7 @@
     },
     {
         "id": 13,
-        "name": "psychic",
+        "name": "PSYCHIC",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -859,7 +859,7 @@
     },
     {
         "id": 14,
-        "name": "ice",
+        "name": "ICE",
         "damageModifiers": [
             {
                 "typeId": 1,
@@ -925,7 +925,7 @@
     },
     {
         "id": 15,
-        "name": "dragon",
+        "name": "DRAGON",
         "damageModifiers": [
             {
                 "typeId": 1,
