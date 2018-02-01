@@ -5,6 +5,7 @@ import Pokemon from "Models/Pokemon/Pokemon";
 import AilmentName from "Enums/AilmentName";
 import StatName from "Enums/StatName";
 import IVHelper from "Helpers/IV";
+import StatHelper from "Helpers/Stat";
 
 /**
  * Pokemon containing battle-specific statistics.
@@ -12,7 +13,7 @@ import IVHelper from "Helpers/IV";
 export default class BattlePokemon extends PartyPokemon {
 
     protected ailments: Ailment[];
-    protected statChanges: Stat[];
+    protected statStage: Stat[];
     public hasIncreasedCritRate: boolean;
     public statusEffect: AilmentName;
 
@@ -24,7 +25,7 @@ export default class BattlePokemon extends PartyPokemon {
             this.statusEffect = AilmentName.NONE;
     
             this.ailments = [];
-            this.statChanges = [];
+            this.statStage = [];
 
             this.stats.push(new Stat({ name: StatName.EVASION, value: 100 }));
             this.stats.push(new Stat({ name: StatName.ACCURACY, value: 100 }));
@@ -41,7 +42,7 @@ export default class BattlePokemon extends PartyPokemon {
             this.ailments = battlePokemon.ailments.map((ailment) => {
                 return new Ailment(ailment); });
     
-            this.statChanges = battlePokemon.statChanges.map((statChange) => {
+            this.statStage = battlePokemon.statChanges.map((statChange) => {
                 return new Stat(statChange); });
         }
     }
@@ -88,30 +89,30 @@ export default class BattlePokemon extends PartyPokemon {
     }
 
     /**
-     * Get statistic changes from this pokemon.
+     * Get statistic stages from this pokemon.
      * @returns Array of Stat objects.
      */
-    public getStatChanges (): Stat[] {
-        return this.statChanges;
+    public getStatStages (): Stat[] {
+        return this.statStage;
     }
 
     /**
-     * Get statistic change by name from pokemon.
+     * Get statistic stage by name from pokemon.
      * @param name Name of statistic to search for.
      * @returns Stat object or null if not found.
      */
-    public getStatChangeByName (name: StatName): Stat {
-        let value = this.statChanges.find((stat) => stat.name === name);
+    public getStatStageByName (name: StatName): Stat {
+        let value = this.statStage.find((stat) => stat.name === name);
         return value === undefined ? null : value;
     }
 
     /**
-     * Add Statistic change to pokemon or modify existing.
+     * Add Statistic stage to pokemon or modify existing.
      * @param statChange Statistic to add.
      */
-    public AddStatChange (statChange: Stat): void {
+    public AddStatStage (statChange: Stat): void {
         let found = false;
-        this.statChanges.forEach((curStatChange) => {
+        this.statStage.forEach((curStatChange) => {
             if (curStatChange.name === statChange.name) {
                 curStatChange.value = statChange.value;
                 found = true;
@@ -119,17 +120,17 @@ export default class BattlePokemon extends PartyPokemon {
         });
 
         if (!found)
-            this.statChanges.push(statChange);
+            this.statStage.push(statChange);
     }
 
     /**
-     * Remove statistic change from pokemon.
+     * Remove statistic stage from pokemon.
      * @param name Statistic's name to remove.
      */
-    public RemoveStatChangeByName (name: StatName): void {
-        this.statChanges.forEach((curStatChange, index) => {
+    public RemoveStatStageByName (name: StatName): void {
+        this.statStage.forEach((curStatChange, index) => {
             if (curStatChange.name === name) {
-                this.statChanges.splice(index, 1);
+                this.statStage.splice(index, 1);
             }
         });
     }
@@ -177,15 +178,12 @@ export default class BattlePokemon extends PartyPokemon {
         return value;
     }
 
-    private calculateStat(stat: Stat): number {
-        let value = Math.floor((stat.value + this.getIVByName(IVHelper.statNameToIVName(stat.name)).value) * 2 * this.level / 100);
-        value += stat.name === StatName.HP ? this.level + 10 : 5;
-
-        let statChange = this.getStatChangeByName(stat.name);
-        if (statChange !== null) {
-            value += statChange.value;
+    private calculateStat (stat: Stat): number {
+        let stageValue = 0;
+        let stage = this.getStatStageByName(stat.name);
+        if (stage !== null) {
+            stageValue = stage.value;
         }
-
-        return value;
+        return StatHelper.calculateStat(stat, stageValue, this.level, this.getIVByName(IVHelper.statNameToIVName(stat.name)).value);
     }
 }
