@@ -1,14 +1,23 @@
 {
-    "types": {
-        "grass": ":leaves:",
-        "fire": ":fire:",
-        "poison": ":syringe:",
-        "flying": ":cloud:",
-        "water": "",
-        "bug": "",
-        "normal": "",
-        "electric": "",
-        "ground": "",
-        "fairy": ""
-    }
+    "NORMAL": ":paw_prints:",
+    "FIGHTING": ":muscle:",
+    "FLYING": ":cloud:",
+    "POISON": ":pill:",
+    "GROUND": "",
+    "ROCK": "",
+    "BUG": ":beetle:",
+    "GHOST": ":ghost:",
+    "FIRE": ":fire:",
+    "WATER": ":droplet:",
+    "GRASS": ":herb:",
+    "ELECTRIC": ":zap:",
+    "PSYCHIC": ":crystal_ball:",
+    "ICE": ":snowflake:",
+    "DRAGON": ":dragon_face:",
+    "SUPER_EFFECTIVE": ":bangbang:",
+    "EFFECTIVE": ":exclamation:",
+    "NOT_VERY_EFFECTIVE": ":speech_balloon:",
+    "NOT_EFFECTIVE": ":notes:",
+    "CRITICAL": ":boom:",
+    "MISS": ":grey_question:"
 }
