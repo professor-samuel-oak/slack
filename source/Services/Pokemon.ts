@@ -26,12 +26,8 @@ export default class PokemonService {
     }
 
     public static getPokemonByName (name: string): Pokemon {
-        PokemonService.pokemons.map((pokemon) => {
-            if (pokemon.name === name) {
-                return pokemon;
-            }
-        });
-        return null;
+        let value = this.pokemons.find((pokemon) => pokemon.name === name);
+        return value === undefined ? null : value;
     }
 
     public static getRandomPokemon (): Pokemon {

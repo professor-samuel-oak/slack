@@ -26,11 +26,7 @@ export default class MoveService {
     }
 
     public static getMoveByName (name: string): Move {
-        this.moves.map((move) => {
-            if (move.name === name) {
-                return move;
-            }
-        });
-        return null;
+        let value = this.moves.find((move) => move.name === name);
+        return value === undefined ? null : value;
     }
 }

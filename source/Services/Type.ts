@@ -27,11 +27,7 @@ export default class TypeService {
     }
 
     public static getTypeByName (name: TypeName): Type {
-        this.types.map((type) => {
-            if (type.name === name) {
-                return type;
-            }
-        });
-        return null;
+        let value = this.types.find((type) => type.name === name);
+        return value === undefined ? null : value;
     }
 }
