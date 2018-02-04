@@ -1,5 +1,5 @@
 import Pokemon from "Models/Pokemon/Pokemon";
-import Effectiveness from "Models/ReturnTypes/Effectiveness";
+import Effectiveness from "Models/Pokemon/Effectiveness";
 import Move from "Models/Pokemon/Move";
 import PartyPokemon from "Models/Pokemon/PartyPokemon";
 import Type from "Models/Pokemon/Type";
