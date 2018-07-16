@@ -54,8 +54,8 @@ export default class ActionHelper {
 
         let level = pokemonAttacking.level;
         let power = move.power;
-        let attack = move.damageClass === DamageClassName.PHYSICAL ? pokemonAttacking.getStatByName(StatName.ATTACK).value : pokemonAttacking.getStatByName(StatName.SPECIAL_ATTACK).value;
-        let defense = move.damageClass === DamageClassName.PHYSICAL ? pokemonDefending.getStatByName(StatName.DEFENSE).value : pokemonDefending.getStatByName(StatName.SPECIAL_DEFENSE).value;
+        let attack = move.damageClass === DamageClassName.PHYSICAL ? pokemonAttacking.getStatByName(StatName.ATTACK).value : pokemonAttacking.getStatByName(StatName.SPECIAL).value;
+        let defense = move.damageClass === DamageClassName.PHYSICAL ? pokemonDefending.getStatByName(StatName.DEFENSE).value : pokemonDefending.getStatByName(StatName.SPECIAL).value;
 
         // Calculate damage, keeping integer calculations.
         let damage = Math.floor(Math.floor(Math.floor(2 * level / 5 + 2) * power * attack / defense) / 50) + 2;

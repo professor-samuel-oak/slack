@@ -14,8 +14,7 @@ export default class IVHelper {
             case StatName.DEFENSE: return IVName.DEFENSE;
             case StatName.HP: return IVName.HP;
             case StatName.SPEED: return IVName.SPEED;
-            case StatName.SPECIAL_ATTACK: // OR
-            case StatName.SPECIAL_DEFENSE: return IVName.DEFENSE;
+            case StatName.SPECIAL: return IVName.SPECIAL;
             default: return null;
         }
     }

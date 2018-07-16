@@ -3,8 +3,7 @@ enum StatName {
     ATTACK,
     DEFENSE,
     SPEED,
-    SPECIAL_ATTACK,
-    SPECIAL_DEFENSE,
+    SPECIAL,
     EVASION,
     ACCURACY
 }
