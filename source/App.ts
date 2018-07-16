@@ -46,6 +46,7 @@ export default class App {
             pokemonAttack = PokemonService.getPokemonByID(attackingPokemonId);
         }
         let battlePokemonAttack = new BattlePokemon(pokemonAttack);
+        battlePokemonAttack.level = Math.floor(Math.random() * 100) + 1;
 
         let move = battlePokemonAttack.getRandomMove();
         // Move is often a status move, which never does damage.
@@ -59,10 +60,11 @@ export default class App {
 
         let defendingPokemonId = Math.floor(Math.random() * 151) + 1;
         let pokemonDefense = PokemonService.getPokemonByID(defendingPokemonId);
-        let battlePokemoDefense = new BattlePokemon(pokemonDefense);
+        let battlePokemonDefense = new BattlePokemon(pokemonDefense);
+        battlePokemonDefense.level = Math.floor(Math.random() * 100) + 1;
         let typesDefense = pokemonDefense.getTypes().map((type) => TypeName[type.name]);
-        let damage = ActionHelper.getMoveDamage(battlePokemonAttack, battlePokemoDefense, move.move, false);
-        console.log ("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "If ", `${battlePokemonAttack.name}`, " would use this move against ", `${battlePokemoDefense.name} (${typesDefense}) (lvl ${battlePokemonAttack.level})`, ", ", `${battlePokemonAttack.name}`, " could do ", `${damage} damage`, "!");
+        let damage = ActionHelper.getMoveDamage(battlePokemonAttack, battlePokemonDefense, move.move, false);
+        console.log("\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[41m%s\x1b[0m\x1b[33m%s\x1b[0m", "If ", `${battlePokemonAttack.name}`, " would use this move against ", `${battlePokemonDefense.name} (${typesDefense}) (lvl ${battlePokemonDefense.level})`, ", ", `${battlePokemonAttack.name}`, " could do ", `${damage} damage`, "!");
     }
 
     private hasOnlyStatusMoves (pokemon: Pokemon): boolean {
