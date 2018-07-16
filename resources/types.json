@@ -1,9 +1,7 @@
-[
-    {
+[{
         "id": 1,
         "name": "NORMAL",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -68,8 +66,7 @@
     {
         "id": 2,
         "name": "FIGHTING",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 2
             },
@@ -134,8 +131,7 @@
     {
         "id": 3,
         "name": "FLYING",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -200,8 +196,7 @@
     {
         "id": 4,
         "name": "POISON",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -266,8 +261,7 @@
     {
         "id": 5,
         "name": "GROUND",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -332,8 +326,7 @@
     {
         "id": 6,
         "name": "ROCK",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -398,8 +391,7 @@
     {
         "id": 7,
         "name": "BUG",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -464,8 +456,7 @@
     {
         "id": 8,
         "name": "GHOST",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 0
             },
@@ -530,8 +521,7 @@
     {
         "id": 9,
         "name": "FIRE",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -596,8 +586,7 @@
     {
         "id": 10,
         "name": "WATER",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -662,8 +651,7 @@
     {
         "id": 11,
         "name": "GRASS",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -728,8 +716,7 @@
     {
         "id": 12,
         "name": "ELECTRIC",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -794,8 +781,7 @@
     {
         "id": 13,
         "name": "PSYCHIC",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -860,8 +846,7 @@
     {
         "id": 14,
         "name": "ICE",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },
@@ -926,8 +911,7 @@
     {
         "id": 15,
         "name": "DRAGON",
-        "damageModifiers": [
-            {
+        "damageModifiers": [{
                 "typeId": 1,
                 "modifier": 1
             },

@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 1,
         "name": "pound",
         "typeId": 1,
@@ -27,7 +26,7 @@
     {
         "id": 2,
         "name": "karate-chop",
-        "typeId": 2,
+        "typeId": 1,
         "accuracy": 100,
         "effectChance": null,
         "pp": 25,
@@ -162,7 +161,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
         "ailment": "BURN",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -188,7 +186,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.",
         "ailment": "FREEZE",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -214,7 +211,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
         "ailment": "PARALYSIS",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -306,7 +302,7 @@
         "id": 13,
         "name": "razor-wind",
         "typeId": 1,
-        "accuracy": 100,
+        "accuracy": 75,
         "effectChance": null,
         "pp": 10,
         "priority": 0,
@@ -333,7 +329,7 @@
         "typeId": 1,
         "accuracy": null,
         "effectChance": null,
-        "pp": 20,
+        "pp": 30,
         "priority": 0,
         "power": null,
         "damageClass": "STATUS",
@@ -349,12 +345,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "ATTACK",
-                "value": 2
-            }
-        ],
+        "statChanges": [{
+            "name": "ATTACK",
+            "value": 2
+        }],
         "chargeTime": 0
     },
     {
@@ -385,7 +379,7 @@
     {
         "id": 16,
         "name": "gust",
-        "typeId": 3,
+        "typeId": 1,
         "accuracy": 100,
         "effectChance": null,
         "pp": 35,
@@ -415,7 +409,7 @@
         "effectChance": null,
         "pp": 35,
         "priority": 0,
-        "power": 60,
+        "power": 35,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.",
@@ -436,7 +430,7 @@
         "id": 18,
         "name": "whirlwind",
         "typeId": 1,
-        "accuracy": null,
+        "accuracy": 85,
         "effectChance": null,
         "pp": 20,
         "priority": -6,
@@ -465,7 +459,7 @@
         "effectChance": null,
         "pp": 15,
         "priority": 0,
-        "power": 90,
+        "power": 70,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.\n\nThe damage from hail and sandstorm still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be used while gravity is in effect.\n\nThis move cannot be selected by sleep talk.",
@@ -486,16 +480,15 @@
         "id": 20,
         "name": "bind",
         "typeId": 1,
-        "accuracy": 85,
+        "accuracy": 75,
         "effectChance": 100,
         "pp": 20,
         "priority": 0,
         "power": 15,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
-        "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
+        "effect": "Inflicts regular damage.  For the next 2-5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
         "ailment": "TRAP",
-        "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -539,7 +532,7 @@
         "typeId": 12,
         "accuracy": 100,
         "effectChance": null,
-        "pp": 25,
+        "pp": 10,
         "priority": 0,
         "power": 45,
         "damageClass": "PHYSICAL",
@@ -641,7 +634,7 @@
         "effectChance": null,
         "pp": 10,
         "priority": 0,
-        "power": 100,
+        "power": 70,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  If this move misses, is blocked by protect or detect, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.\n\nThis move cannot be used while gravity is in effect.",
@@ -686,7 +679,7 @@
     {
         "id": 28,
         "name": "sand-attack",
-        "typeId": 5,
+        "typeId": 1,
         "accuracy": 100,
         "effectChance": null,
         "pp": 15,
@@ -705,12 +698,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "accuracy",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "ACCURACY",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -817,11 +808,11 @@
         "id": 33,
         "name": "tackle",
         "typeId": 1,
-        "accuracy": 100,
+        "accuracy": 95,
         "effectChance": null,
         "pp": 35,
         "priority": 0,
-        "power": 40,
+        "power": 35,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.",
@@ -851,7 +842,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
         "ailment": "PARALYSIS",
-        "ailmentChange": 30,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -868,16 +858,15 @@
         "id": 35,
         "name": "wrap",
         "typeId": 1,
-        "accuracy": 90,
+        "accuracy": 85,
         "effectChance": 100,
         "pp": 20,
         "priority": 0,
         "power": 15,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
-        "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
+        "effect": "Inflicts regular damage.  For the next 2-5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
         "ailment": "TRAP",
-        "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -921,9 +910,9 @@
         "typeId": 1,
         "accuracy": 100,
         "effectChance": null,
-        "pp": 10,
+        "pp": 20,
         "priority": 0,
-        "power": 120,
+        "power": 90,
         "damageClass": "PHYSICAL",
         "target": "RANDOM_OPPONENT",
         "effect": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
@@ -948,7 +937,7 @@
         "effectChance": null,
         "pp": 15,
         "priority": 0,
-        "power": 120,
+        "power": 100,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
@@ -987,12 +976,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -1008,7 +995,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
         "ailment": "POISON",
-        "ailmentChange": 30,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1034,7 +1020,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Hits twice in the same turn.  Has a $effect_chance% chance to poison the target.",
         "ailment": "POISON",
-        "ailmentChange": 20,
         "minHits": 2,
         "maxHits": 2,
         "minTurns": null,
@@ -1051,11 +1036,11 @@
         "id": 42,
         "name": "pin-missile",
         "typeId": 7,
-        "accuracy": 95,
+        "accuracy": 85,
         "effectChance": null,
         "pp": 20,
         "priority": 0,
-        "power": 25,
+        "power": 14,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
@@ -1094,12 +1079,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -1149,19 +1132,17 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "ATTACK",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "ATTACK",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
         "id": 46,
         "name": "roar",
         "typeId": 1,
-        "accuracy": null,
+        "accuracy": 100,
         "effectChance": null,
         "pp": 20,
         "priority": -6,
@@ -1197,8 +1178,8 @@
         "ailment": "SLEEP",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 4,
+        "minTurns": 1,
+        "maxTurns": 7,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -1222,8 +1203,8 @@
         "ailment": "CONFUSION",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 5,
+        "minTurns": 1,
+        "maxTurns": 4,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -1261,19 +1242,19 @@
         "id": 50,
         "name": "disable",
         "typeId": 1,
-        "accuracy": 100,
+        "accuracy": 55,
         "effectChance": null,
         "pp": 20,
         "priority": 0,
         "power": null,
         "damageClass": "STATUS",
         "target": "SELECTED_POKEMON",
-        "effect": "Disables the target's last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the field.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
+        "effect": "Disables the target's last used move, preventing its use for 0-6 turns, selected at random, or until the target leaves the field.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
         "ailment": "DISABLE",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 4,
-        "maxTurns": 7,
+        "minTurns": 0,
+        "maxTurns": 6,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -1304,12 +1285,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "SPECIAL_DEFENSE",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -1325,7 +1304,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
         "ailment": "BURN",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1346,12 +1324,11 @@
         "effectChance": 10,
         "pp": 15,
         "priority": 0,
-        "power": 90,
+        "power": 95,
         "damageClass": "SPECIAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
         "ailment": "BURN",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1422,7 +1399,7 @@
         "effectChance": null,
         "pp": 5,
         "priority": 0,
-        "power": 110,
+        "power": 120,
         "damageClass": "SPECIAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.",
@@ -1447,7 +1424,7 @@
         "effectChance": null,
         "pp": 15,
         "priority": 0,
-        "power": 90,
+        "power": 95,
         "damageClass": "SPECIAL",
         "target": "ALL_OTHER_POKEMON",
         "effect": "Inflicts regular damage.\n\nIf the target is in the first turn of dive, this move will hit with double power.",
@@ -1472,12 +1449,11 @@
         "effectChance": 10,
         "pp": 10,
         "priority": 0,
-        "power": 90,
+        "power": 95,
         "damageClass": "SPECIAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.",
         "ailment": "FREEZE",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1494,7 +1470,7 @@
         "id": 59,
         "name": "blizzard",
         "typeId": 15,
-        "accuracy": 70,
+        "accuracy": 90,
         "effectChance": 10,
         "pp": 5,
         "priority": 0,
@@ -1503,7 +1479,6 @@
         "target": "ALL_OPPONENTS",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.",
         "ailment": "FREEZE",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -1529,11 +1504,10 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
         "ailment": "CONFUSION",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 5,
+        "minTurns": 1,
+        "maxTurns": 4,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -1564,12 +1538,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPEED",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "SPEED",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -1594,12 +1566,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "ATTACK",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "ATTACK",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -1683,7 +1653,7 @@
         "typeId": 2,
         "accuracy": 80,
         "effectChance": null,
-        "pp": 20,
+        "pp": 25,
         "priority": 0,
         "power": 80,
         "damageClass": "PHYSICAL",
@@ -1706,11 +1676,11 @@
         "id": 67,
         "name": "low-kick",
         "typeId": 2,
-        "accuracy": 100,
+        "accuracy": 90,
         "effectChance": null,
         "pp": 20,
         "priority": 0,
-        "power": null,
+        "power": 50,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
@@ -1808,7 +1778,7 @@
         "typeId": 12,
         "accuracy": 100,
         "effectChance": null,
-        "pp": 25,
+        "pp": 20,
         "priority": 0,
         "power": 20,
         "damageClass": "SPECIAL",
@@ -1833,7 +1803,7 @@
         "typeId": 12,
         "accuracy": 100,
         "effectChance": null,
-        "pp": 15,
+        "pp": 10,
         "priority": 0,
         "power": 40,
         "damageClass": "SPECIAL",
@@ -1899,8 +1869,7 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
+        "statChanges": [{
                 "name": "ATTACK",
                 "value": 1
             },
@@ -2026,8 +1995,8 @@
         "ailment": "SLEEP",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 4,
+        "minTurns": 1,
+        "maxTurns": 7,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -2044,7 +2013,7 @@
         "effectChance": null,
         "pp": 10,
         "priority": 0,
-        "power": 120,
+        "power": 70,
         "damageClass": "SPECIAL",
         "target": "RANDOM_OPPONENT",
         "effect": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
@@ -2083,12 +2052,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPEED",
-                "value": -2
-            }
-        ],
+        "statChanges": [{
+            "name": "SPEED",
+            "value": -2
+        }],
         "chargeTime": 0
     },
     {
@@ -2120,16 +2087,15 @@
         "id": 83,
         "name": "fire-spin",
         "typeId": 10,
-        "accuracy": 85,
+        "accuracy": 70,
         "effectChance": 100,
         "pp": 15,
         "priority": 0,
-        "power": 35,
+        "power": 15,
         "damageClass": "SPECIAL",
         "target": "SELECTED_POKEMON",
-        "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
+        "effect": "Inflicts regular damage.  For the next 2-5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
         "ailment": "TRAP",
-        "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -2155,7 +2121,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
         "ailment": "PARALYSIS",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2176,12 +2141,11 @@
         "effectChance": 10,
         "pp": 15,
         "priority": 0,
-        "power": 90,
+        "power": 95,
         "damageClass": "SPECIAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
         "ailment": "PARALYSIS",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2198,7 +2162,7 @@
         "id": 86,
         "name": "thunder-wave",
         "typeId": 13,
-        "accuracy": 90,
+        "accuracy": 100,
         "effectChance": null,
         "pp": 20,
         "priority": 0,
@@ -2232,7 +2196,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.\n\nDuring rain dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.\n\nDuring sunny day, this move has 50% accuracy.",
         "ailment": "PARALYSIS",
-        "ailmentChange": 30,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -2249,7 +2212,7 @@
         "id": 88,
         "name": "rock-throw",
         "typeId": 6,
-        "accuracy": 90,
+        "accuracy": 65,
         "effectChance": null,
         "pp": 15,
         "priority": 0,
@@ -2328,7 +2291,7 @@
         "effectChance": null,
         "pp": 10,
         "priority": 0,
-        "power": 80,
+        "power": 100,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, earthquake, fissure, and magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be selected by sleep talk.",
@@ -2343,13 +2306,13 @@
         "increasesCritRate": false,
         "flinchChance": 0,
         "statChanges": [],
-        "chargeTime": 0
+        "chargeTime": 1
     },
     {
         "id": 92,
         "name": "toxic",
         "typeId": 4,
-        "accuracy": 90,
+        "accuracy": 85,
         "effectChance": null,
         "pp": 10,
         "priority": 0,
@@ -2360,8 +2323,8 @@
         "ailment": "BADLY_POISON",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 15,
-        "maxTurns": 15,
+        "minTurns": 999,
+        "maxTurns": 999,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -2383,11 +2346,10 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
         "ailment": "CONFUSION",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 5,
+        "minTurns": 1,
+        "maxTurns": 4,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -2418,19 +2380,17 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "SPECIAL_DEFENSE",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
         "id": 95,
         "name": "hypnosis",
         "typeId": 14,
-        "accuracy": 60,
+        "accuracy": 70,
         "effectChance": null,
         "pp": 20,
         "priority": 0,
@@ -2441,8 +2401,8 @@
         "ailment": "SLEEP",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 4,
+        "minTurns": 1,
+        "maxTurns": 7,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -2473,12 +2433,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "ATTACK",
-                "value": 1
-            }
-        ],
+        "statChanges": [{
+            "name": "ATTACK",
+            "value": 1
+        }],
         "chargeTime": 0
     },
     {
@@ -2503,12 +2461,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPEED",
-                "value": 2
-            }
-        ],
+        "statChanges": [{
+            "name": "SPEED",
+            "value": 2
+        }],
         "chargeTime": 0
     },
     {
@@ -2658,12 +2614,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": -2
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": -2
+        }],
         "chargeTime": 0
     },
     {
@@ -2688,12 +2642,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "evasion",
-                "value": 1
-            }
-        ],
+        "statChanges": [{
+            "name": "EVASION",
+            "value": 1
+        }],
         "chargeTime": 0
     },
     {
@@ -2702,7 +2654,7 @@
         "typeId": 1,
         "accuracy": null,
         "effectChance": null,
-        "pp": 10,
+        "pp": 20,
         "priority": 0,
         "power": null,
         "damageClass": "STATUS",
@@ -2743,12 +2695,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": 1
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": 1
+        }],
         "chargeTime": 0
     },
     {
@@ -2757,7 +2707,7 @@
         "typeId": 1,
         "accuracy": null,
         "effectChance": null,
-        "pp": 10,
+        "pp": 20,
         "priority": 0,
         "power": null,
         "damageClass": "STATUS",
@@ -2773,12 +2723,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "evasion",
-                "value": 2
-            }
-        ],
+        "statChanges": [{
+            "name": "EVASION",
+            "value": 2
+        }],
         "chargeTime": 0
     },
     {
@@ -2803,12 +2751,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "accuracy",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "ACCURACY",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -2826,8 +2772,8 @@
         "ailment": "CONFUSION",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 5,
+        "minTurns": 1,
+        "maxTurns": 4,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -2858,12 +2804,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": 1
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": 1
+        }],
         "chargeTime": 0
     },
     {
@@ -2888,12 +2832,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": 1
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": 1
+        }],
         "chargeTime": 0
     },
     {
@@ -2902,7 +2844,7 @@
         "typeId": 14,
         "accuracy": null,
         "effectChance": null,
-        "pp": 20,
+        "pp": 30,
         "priority": 0,
         "power": null,
         "damageClass": "STATUS",
@@ -2918,12 +2860,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": 2
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": 2
+        }],
         "chargeTime": 0
     },
     {
@@ -3049,7 +2989,7 @@
         "increasesCritRate": false,
         "flinchChance": 0,
         "statChanges": [],
-        "chargeTime": 0
+        "chargeTime": 2
     },
     {
         "id": 118,
@@ -3109,7 +3049,7 @@
         "effectChance": null,
         "pp": 5,
         "priority": 0,
-        "power": 200,
+        "power": 130,
         "damageClass": "PHYSICAL",
         "target": "ALL_OTHER_POKEMON",
         "effect": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
@@ -3159,12 +3099,11 @@
         "effectChance": 30,
         "pp": 30,
         "priority": 0,
-        "power": 30,
+        "power": 20,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
         "ailment": "PARALYSIS",
-        "ailmentChange": 30,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3185,12 +3124,11 @@
         "effectChance": 40,
         "pp": 20,
         "priority": 0,
-        "power": 30,
+        "power": 20,
         "damageClass": "SPECIAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
         "ailment": "POISON",
-        "ailmentChange": 40,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3216,7 +3154,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
         "ailment": "POISON",
-        "ailmentChange": 30,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3267,7 +3204,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
         "ailment": "BURN",
-        "ailmentChange": 10,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3309,16 +3245,15 @@
         "id": 128,
         "name": "clamp",
         "typeId": 11,
-        "accuracy": 85,
+        "accuracy": 75,
         "effectChance": 100,
-        "pp": 15,
+        "pp": 10,
         "priority": 0,
         "power": 35,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
-        "effect": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
+        "effect": "Inflicts regular damage.  For the next 2-5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
         "ailment": "TRAP",
-        "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
         "minTurns": 2,
@@ -3362,14 +3297,13 @@
         "typeId": 1,
         "accuracy": 100,
         "effectChance": 100,
-        "pp": 10,
+        "pp": 15,
         "priority": 0,
-        "power": 130,
+        "power": 100,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Raises the user's Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk.",
         "ailment": "NONE",
-        "ailmentChange": 100,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,
@@ -3380,7 +3314,7 @@
         "increasesCritRate": false,
         "flinchChance": 0,
         "statChanges": [],
-        "chargeTime": 0
+        "chargeTime": 1
     },
     {
         "id": 131,
@@ -3429,12 +3363,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPEED",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "SPEED",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -3459,12 +3391,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 2
-            }
-        ],
+        "statChanges": [{
+            "name": "SPECIAL_DEFENSE",
+            "value": 2
+        }],
         "chargeTime": 0
     },
     {
@@ -3489,12 +3419,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "accuracy",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "ACCURACY",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -3530,7 +3458,7 @@
         "effectChance": null,
         "pp": 10,
         "priority": 0,
-        "power": 130,
+        "power": 85,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  If this move misses, is blocked by protect or detect, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.\n\nThis move cannot be used while gravity is in effect.",
@@ -3551,7 +3479,7 @@
         "id": 137,
         "name": "glare",
         "typeId": 1,
-        "accuracy": 100,
+        "accuracy": 75,
         "effectChance": null,
         "pp": 30,
         "priority": 0,
@@ -3601,7 +3529,7 @@
         "id": 139,
         "name": "poison-gas",
         "typeId": 4,
-        "accuracy": 90,
+        "accuracy": 55,
         "effectChance": null,
         "pp": 40,
         "priority": 0,
@@ -3653,9 +3581,9 @@
         "typeId": 7,
         "accuracy": 100,
         "effectChance": null,
-        "pp": 10,
+        "pp": 15,
         "priority": 0,
-        "power": 80,
+        "power": 20,
         "damageClass": "PHYSICAL",
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
@@ -3687,8 +3615,8 @@
         "ailment": "SLEEP",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 4,
+        "minTurns": 1,
+        "maxTurns": 7,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -3755,7 +3683,7 @@
         "effectChance": 10,
         "pp": 30,
         "priority": 0,
-        "power": 40,
+        "power": 20,
         "damageClass": "SPECIAL",
         "target": "ALL_OPPONENTS",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
@@ -3769,12 +3697,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "SPEED",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "SPEED",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
@@ -3790,11 +3716,10 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
         "ailment": "CONFUSION",
-        "ailmentChange": 20,
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
-        "maxTurns": 5,
+        "minTurns": 1,
+        "maxTurns": 4,
         "drain": 0,
         "healing": 0,
         "increasedCritRate": false,
@@ -3818,7 +3743,7 @@
         "ailment": "SLEEP",
         "minHits": null,
         "maxHits": null,
-        "minTurns": 2,
+        "minTurns": 1,
         "maxTurns": 4,
         "drain": 0,
         "healing": 0,
@@ -3832,7 +3757,7 @@
         "id": 148,
         "name": "flash",
         "typeId": 1,
-        "accuracy": 100,
+        "accuracy": 70,
         "effectChance": null,
         "pp": 20,
         "priority": 0,
@@ -3850,19 +3775,17 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "accuracy",
-                "value": -1
-            }
-        ],
+        "statChanges": [{
+            "name": "ACCURACY",
+            "value": -1
+        }],
         "chargeTime": 0
     },
     {
         "id": 149,
         "name": "psywave",
         "typeId": 14,
-        "accuracy": 100,
+        "accuracy": 80,
         "effectChance": null,
         "pp": 15,
         "priority": 0,
@@ -3914,7 +3837,7 @@
         "typeId": 4,
         "accuracy": null,
         "effectChance": null,
-        "pp": 20,
+        "pp": 40,
         "priority": 0,
         "power": null,
         "damageClass": "STATUS",
@@ -3930,19 +3853,17 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "DEFENSE",
-                "value": 2
-            }
-        ],
+        "statChanges": [{
+            "name": "DEFENSE",
+            "value": 2
+        }],
         "chargeTime": 0
     },
     {
         "id": 152,
         "name": "crabhammer",
         "typeId": 11,
-        "accuracy": 90,
+        "accuracy": 85,
         "effectChance": null,
         "pp": 10,
         "priority": 0,
@@ -3971,7 +3892,7 @@
         "effectChance": null,
         "pp": 5,
         "priority": 0,
-        "power": 250,
+        "power": 170,
         "damageClass": "PHYSICAL",
         "target": "ALL_OTHER_POKEMON",
         "effect": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
@@ -4135,12 +4056,10 @@
         "increasedCritRate": false,
         "increasesCritRate": false,
         "flinchChance": 0,
-        "statChanges": [
-            {
-                "name": "ATTACK",
-                "value": 1
-            }
-        ],
+        "statChanges": [{
+            "name": "ATTACK",
+            "value": 1
+        }],
         "chargeTime": 0
     },
     {
@@ -4181,7 +4100,6 @@
         "target": "SELECTED_POKEMON",
         "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
         "ailment": "UNKNOWN",
-        "ailmentChange": 20,
         "minHits": null,
         "maxHits": null,
         "minTurns": null,

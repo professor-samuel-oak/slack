@@ -1,11 +1,9 @@
-[
-    {
+[{
         "id": 1,
         "name": "bulbasaur",
         "baseExperience": 64,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -121,8 +119,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 45
             },
@@ -135,11 +132,7 @@
                 "value": 49
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 65
             },
             {
@@ -151,20 +144,17 @@
             11,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 2,
-                "requiredLevel": 16
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 2,
+            "requiredLevel": 16
+        }]
     },
     {
         "id": 2,
         "name": "ivysaur",
         "baseExperience": 142,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -280,8 +270,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -294,11 +283,7 @@
                 "value": 63
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 80
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 80
             },
             {
@@ -310,20 +295,17 @@
             11,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 3,
-                "requiredLevel": 32
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 3,
+            "requiredLevel": 32
+        }]
     },
     {
         "id": 3,
         "name": "venusaur",
         "baseExperience": 236,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -444,8 +426,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -458,11 +439,7 @@
                 "value": 83
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 100
             },
             {
@@ -481,8 +458,7 @@
         "name": "charmander",
         "baseExperience": 62,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -638,8 +614,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 39
             },
@@ -652,12 +627,8 @@
                 "value": 43
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 50
             },
             {
                 "name": "SPEED",
@@ -667,20 +638,17 @@
         "types": [
             9
         ],
-        "evolutions": [
-            {
-                "pokemonId": 5,
-                "requiredLevel": 16
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 5,
+            "requiredLevel": 16
+        }]
     },
     {
         "id": 5,
         "name": "charmeleon",
         "baseExperience": 142,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -836,8 +804,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 58
             },
@@ -850,12 +817,8 @@
                 "value": 58
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 80
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 65
             },
             {
                 "name": "SPEED",
@@ -865,20 +828,17 @@
         "types": [
             9
         ],
-        "evolutions": [
-            {
-                "pokemonId": 6,
-                "requiredLevel": 36
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 6,
+            "requiredLevel": 36
+        }]
     },
     {
         "id": 6,
         "name": "charizard",
         "baseExperience": 240,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -1054,8 +1014,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 78
             },
@@ -1068,12 +1027,8 @@
                 "value": 78
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 109
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 85
             },
             {
                 "name": "SPEED",
@@ -1091,8 +1046,7 @@
         "name": "squirtle",
         "baseExperience": 63,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -1243,8 +1197,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 44
             },
@@ -1257,12 +1210,8 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 64
             },
             {
                 "name": "SPEED",
@@ -1272,20 +1221,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 8,
-                "requiredLevel": 16
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 8,
+            "requiredLevel": 16
+        }]
     },
     {
         "id": 8,
         "name": "wartortle",
         "baseExperience": 142,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -1436,8 +1382,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 59
             },
@@ -1450,12 +1395,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -1465,20 +1406,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 9,
-                "requiredLevel": 36
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 9,
+            "requiredLevel": 36
+        }]
     },
     {
         "id": 9,
         "name": "blastoise",
         "baseExperience": 239,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -1644,8 +1582,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 79
             },
@@ -1658,12 +1595,8 @@
                 "value": 100
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 105
             },
             {
                 "name": "SPEED",
@@ -1680,8 +1613,7 @@
         "name": "caterpie",
         "baseExperience": 39,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -1692,8 +1624,7 @@
                 "levelLearnedAt": 1
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 45
             },
@@ -1706,11 +1637,7 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 20
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 20
             },
             {
@@ -1721,27 +1648,22 @@
         "types": [
             7
         ],
-        "evolutions": [
-            {
-                "pokemonId": 11,
-                "requiredLevel": 7
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 11,
+            "requiredLevel": 7
+        }]
     },
     {
         "id": 11,
         "name": "metapod",
         "baseExperience": 72,
         "abilities": [],
-        "moves": [
-            {
-                "moveId": 106,
-                "moveLearnMethod": "LEVEL_UP",
-                "levelLearnedAt": 1
-            }
-        ],
-        "stats": [
-            {
+        "moves": [{
+            "moveId": 106,
+            "moveLearnMethod": "LEVEL_UP",
+            "levelLearnedAt": 1
+        }],
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -1754,11 +1676,7 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 25
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 25
             },
             {
@@ -1769,20 +1687,17 @@
         "types": [
             7
         ],
-        "evolutions": [
-            {
-                "pokemonId": 12,
-                "requiredLevel": 10
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 12,
+            "requiredLevel": 10
+        }]
     },
     {
         "id": 12,
         "name": "butterfree",
         "baseExperience": 178,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -1918,8 +1833,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -1932,12 +1846,8 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 90
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -1955,8 +1865,7 @@
         "name": "weedle",
         "baseExperience": 39,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 40,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -1967,8 +1876,7 @@
                 "levelLearnedAt": 1
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -1981,11 +1889,7 @@
                 "value": 30
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 20
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 20
             },
             {
@@ -1997,27 +1901,22 @@
             7,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 14,
-                "requiredLevel": 7
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 14,
+            "requiredLevel": 7
+        }]
     },
     {
         "id": 14,
         "name": "kakuna",
         "baseExperience": 72,
         "abilities": [],
-        "moves": [
-            {
-                "moveId": 106,
-                "moveLearnMethod": "LEVEL_UP",
-                "levelLearnedAt": 1
-            }
-        ],
-        "stats": [
-            {
+        "moves": [{
+            "moveId": 106,
+            "moveLearnMethod": "LEVEL_UP",
+            "levelLearnedAt": 1
+        }],
+        "stats": [{
                 "name": "HP",
                 "value": 45
             },
@@ -2030,11 +1929,7 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 25
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 25
             },
             {
@@ -2046,20 +1941,17 @@
             7,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 15,
-                "requiredLevel": 10
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 15,
+            "requiredLevel": 10
+        }]
     },
     {
         "id": 15,
         "name": "beedrill",
         "baseExperience": 178,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -2165,8 +2057,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -2179,12 +2070,8 @@
                 "value": 40
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -2202,8 +2089,7 @@
         "name": "pidgey",
         "baseExperience": 50,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -2309,8 +2195,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -2323,11 +2208,7 @@
                 "value": 40
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 35
             },
             {
@@ -2339,20 +2220,17 @@
             1,
             3
         ],
-        "evolutions": [
-            {
-                "pokemonId": 17,
-                "requiredLevel": 18
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 17,
+            "requiredLevel": 18
+        }]
     },
     {
         "id": 17,
         "name": "pidgeotto",
         "baseExperience": 122,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -2458,8 +2336,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 63
             },
@@ -2472,11 +2349,7 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 50
             },
             {
@@ -2488,20 +2361,17 @@
             1,
             3
         ],
-        "evolutions": [
-            {
-                "pokemonId": 18,
-                "requiredLevel": 36
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 18,
+            "requiredLevel": 36
+        }]
     },
     {
         "id": 18,
         "name": "pidgeot",
         "baseExperience": 216,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -2612,8 +2482,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 83
             },
@@ -2626,11 +2495,7 @@
                 "value": 75
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 70
             },
             {
@@ -2649,8 +2514,7 @@
         "name": "rattata",
         "baseExperience": 51,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -2771,8 +2635,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 30
             },
@@ -2785,12 +2648,8 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 25
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 35
             },
             {
                 "name": "SPEED",
@@ -2800,20 +2659,17 @@
         "types": [
             1
         ],
-        "evolutions": [
-            {
-                "pokemonId": 20,
-                "requiredLevel": 20
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 20,
+            "requiredLevel": 20
+        }]
     },
     {
         "id": 20,
         "name": "raticate",
         "baseExperience": 145,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -2944,8 +2800,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -2958,12 +2813,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -2980,8 +2831,7 @@
         "name": "spearow",
         "baseExperience": 52,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -3087,8 +2937,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -3101,11 +2950,7 @@
                 "value": 30
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 31
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 31
             },
             {
@@ -3117,20 +2962,17 @@
             1,
             3
         ],
-        "evolutions": [
-            {
-                "pokemonId": 22,
-                "requiredLevel": 20
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 22,
+            "requiredLevel": 20
+        }]
     },
     {
         "id": 22,
         "name": "fearow",
         "baseExperience": 155,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -3241,8 +3083,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -3255,11 +3096,7 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 61
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 61
             },
             {
@@ -3278,8 +3115,7 @@
         "name": "ekans",
         "baseExperience": 58,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 34,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -3400,8 +3236,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 35
             },
@@ -3414,12 +3249,8 @@
                 "value": 44
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 54
             },
             {
                 "name": "SPEED",
@@ -3429,20 +3260,17 @@
         "types": [
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 24,
-                "requiredLevel": 22
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 24,
+            "requiredLevel": 22
+        }]
     },
     {
         "id": 24,
         "name": "arbok",
         "baseExperience": 157,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 34,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -3568,8 +3396,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -3582,12 +3409,8 @@
                 "value": 69
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 79
             },
             {
                 "name": "SPEED",
@@ -3604,8 +3427,7 @@
         "name": "pikachu",
         "baseExperience": 112,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -3751,8 +3573,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 35
             },
@@ -3765,11 +3586,7 @@
                 "value": 40
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 50
             },
             {
@@ -3780,20 +3597,17 @@
         "types": [
             12
         ],
-        "evolutions": [
-            {
-                "pokemonId": 26,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 26,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 26,
         "name": "raichu",
         "baseExperience": 218,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -3919,8 +3733,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -3933,12 +3746,8 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 90
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -3955,8 +3764,7 @@
         "name": "sandshrew",
         "baseExperience": 60,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -4087,8 +3895,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -4101,12 +3908,8 @@
                 "value": 85
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 20
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 30
             },
             {
                 "name": "SPEED",
@@ -4116,20 +3919,17 @@
         "types": [
             5
         ],
-        "evolutions": [
-            {
-                "pokemonId": 28,
-                "requiredLevel": 22
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 28,
+            "requiredLevel": 22
+        }]
     },
     {
         "id": 28,
         "name": "sandslash",
         "baseExperience": 158,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -4265,8 +4065,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 75
             },
@@ -4279,12 +4078,8 @@
                 "value": 110
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -4301,8 +4096,7 @@
         "name": "nidoran-f",
         "baseExperience": 55,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 8
@@ -4418,8 +4212,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -4432,11 +4225,7 @@
                 "value": 52
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 40
             },
             {
@@ -4447,20 +4236,17 @@
         "types": [
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 30,
-                "requiredLevel": 16
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 30,
+            "requiredLevel": 16
+        }]
     },
     {
         "id": 30,
         "name": "nidorina",
         "baseExperience": 128,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -4596,8 +4382,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 70
             },
@@ -4610,11 +4395,7 @@
                 "value": 67
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 55
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 55
             },
             {
@@ -4625,20 +4406,17 @@
         "types": [
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 31,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 31,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 31,
         "name": "nidoqueen",
         "baseExperience": 227,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -4824,8 +4602,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -4838,12 +4615,8 @@
                 "value": 87
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 75
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 85
             },
             {
                 "name": "SPEED",
@@ -4861,8 +4634,7 @@
         "name": "nidoran-m",
         "baseExperience": 55,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 24,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 43
@@ -4978,8 +4750,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 46
             },
@@ -4992,11 +4763,7 @@
                 "value": 40
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 40
             },
             {
@@ -5007,20 +4774,17 @@
         "types": [
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 33,
-                "requiredLevel": 16
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 33,
+            "requiredLevel": 16
+        }]
     },
     {
         "id": 33,
         "name": "nidorino",
         "baseExperience": 128,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 24,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 50
@@ -5151,8 +4915,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 61
             },
@@ -5165,11 +4928,7 @@
                 "value": 57
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 55
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 55
             },
             {
@@ -5180,20 +4939,17 @@
         "types": [
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 34,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 34,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 34,
         "name": "nidoking",
         "baseExperience": 227,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -5379,8 +5135,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 81
             },
@@ -5393,12 +5148,8 @@
                 "value": 77
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -5416,8 +5167,7 @@
         "name": "clefairy",
         "baseExperience": 113,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -5618,8 +5368,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 70
             },
@@ -5632,12 +5381,8 @@
                 "value": 48
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 65
             },
             {
                 "name": "SPEED",
@@ -5647,20 +5392,17 @@
         "types": [
             1
         ],
-        "evolutions": [
-            {
-                "pokemonId": 36,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 36,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 36,
         "name": "clefable",
         "baseExperience": 217,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 3,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -5846,8 +5588,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 95
             },
@@ -5860,12 +5601,8 @@
                 "value": 73
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 95
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 90
             },
             {
                 "name": "SPEED",
@@ -5882,8 +5619,7 @@
         "name": "vulpix",
         "baseExperience": 60,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 34,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -5994,8 +5730,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 38
             },
@@ -6008,12 +5743,8 @@
                 "value": 40
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 65
             },
             {
                 "name": "SPEED",
@@ -6023,20 +5754,17 @@
         "types": [
             9
         ],
-        "evolutions": [
-            {
-                "pokemonId": 38,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 38,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 38,
         "name": "ninetales",
         "baseExperience": 177,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 34,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -6137,8 +5865,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 73
             },
@@ -6151,12 +5878,8 @@
                 "value": 75
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 81
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 100
             },
             {
                 "name": "SPEED",
@@ -6173,8 +5896,7 @@
         "name": "jigglypuff",
         "baseExperience": 95,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 9
@@ -6360,8 +6082,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 115
             },
@@ -6374,12 +6095,8 @@
                 "value": 20
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 25
             },
             {
                 "name": "SPEED",
@@ -6389,20 +6106,17 @@
         "types": [
             1
         ],
-        "evolutions": [
-            {
-                "pokemonId": 40,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 40,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 40,
         "name": "wigglytuff",
         "baseExperience": 196,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 3,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -6588,8 +6302,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 140
             },
@@ -6602,12 +6315,8 @@
                 "value": 45
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 50
             },
             {
                 "name": "SPEED",
@@ -6624,8 +6333,7 @@
         "name": "zubat",
         "baseExperience": 49,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -6721,8 +6429,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -6735,12 +6442,8 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 30
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 40
             },
             {
                 "name": "SPEED",
@@ -6751,20 +6454,17 @@
             4,
             3
         ],
-        "evolutions": [
-            {
-                "pokemonId": 42,
-                "requiredLevel": 22
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 42,
+            "requiredLevel": 22
+        }]
     },
     {
         "id": 42,
         "name": "golbat",
         "baseExperience": 159,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -6870,8 +6570,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 75
             },
@@ -6884,12 +6583,8 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -6907,8 +6602,7 @@
         "name": "oddish",
         "baseExperience": 64,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -7009,8 +6703,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 45
             },
@@ -7023,12 +6716,8 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 75
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 65
             },
             {
                 "name": "SPEED",
@@ -7039,20 +6728,17 @@
             11,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 44,
-                "requiredLevel": 21
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 44,
+            "requiredLevel": 21
+        }]
     },
     {
         "id": 44,
         "name": "gloom",
         "baseExperience": 138,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -7153,8 +6839,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -7167,12 +6852,8 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -7183,20 +6864,17 @@
             11,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 45,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 45,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 45,
         "name": "vileplume",
         "baseExperience": 221,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -7302,8 +6980,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 75
             },
@@ -7316,12 +6993,8 @@
                 "value": 85
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 110
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 90
             },
             {
                 "name": "SPEED",
@@ -7339,8 +7012,7 @@
         "name": "paras",
         "baseExperience": 57,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -7456,8 +7128,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 35
             },
@@ -7470,12 +7141,8 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -7486,20 +7153,17 @@
             7,
             11
         ],
-        "evolutions": [
-            {
-                "pokemonId": 47,
-                "requiredLevel": 24
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 47,
+            "requiredLevel": 24
+        }]
     },
     {
         "id": 47,
         "name": "parasect",
         "baseExperience": 142,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -7620,8 +7284,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -7634,12 +7297,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -7657,8 +7316,7 @@
         "name": "venonat",
         "baseExperience": 61,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -7779,8 +7437,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -7793,12 +7450,8 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -7809,20 +7462,17 @@
             7,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 49,
-                "requiredLevel": 31
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 49,
+            "requiredLevel": 31
+        }]
     },
     {
         "id": 49,
         "name": "venomoth",
         "baseExperience": 158,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -7968,8 +7618,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 70
             },
@@ -7982,12 +7631,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 90
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -8005,8 +7650,7 @@
         "name": "diglett",
         "baseExperience": 53,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -8102,8 +7746,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 10
             },
@@ -8116,12 +7759,8 @@
                 "value": 25
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -8131,20 +7770,17 @@
         "types": [
             5
         ],
-        "evolutions": [
-            {
-                "pokemonId": 51,
-                "requiredLevel": 26
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 51,
+            "requiredLevel": 26
+        }]
     },
     {
         "id": 51,
         "name": "dugtrio",
         "baseExperience": 149,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -8245,8 +7881,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 35
             },
@@ -8259,12 +7894,8 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -8281,8 +7912,7 @@
         "name": "meowth",
         "baseExperience": 58,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 6,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 17
@@ -8398,8 +8028,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -8412,11 +8041,7 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 40
             },
             {
@@ -8427,20 +8052,17 @@
         "types": [
             1
         ],
-        "evolutions": [
-            {
-                "pokemonId": 53,
-                "requiredLevel": 28
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 53,
+            "requiredLevel": 28
+        }]
     },
     {
         "id": 53,
         "name": "persian",
         "baseExperience": 154,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 6,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 17
@@ -8561,8 +8183,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -8575,11 +8196,7 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 65
             },
             {
@@ -8597,8 +8214,7 @@
         "name": "psyduck",
         "baseExperience": 64,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -8754,8 +8370,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -8768,12 +8383,8 @@
                 "value": 48
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 50
             },
             {
                 "name": "SPEED",
@@ -8783,20 +8394,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 55,
-                "requiredLevel": 33
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 55,
+            "requiredLevel": 33
+        }]
     },
     {
         "id": 55,
         "name": "golduck",
         "baseExperience": 175,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -8957,8 +8565,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -8971,12 +8578,8 @@
                 "value": 78
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 95
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -8993,8 +8596,7 @@
         "name": "mankey",
         "baseExperience": 61,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 2,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 15
@@ -9155,8 +8757,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -9169,12 +8770,8 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -9184,20 +8781,17 @@
         "types": [
             2
         ],
-        "evolutions": [
-            {
-                "pokemonId": 57,
-                "requiredLevel": 28
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 57,
+            "requiredLevel": 28
+        }]
     },
     {
         "id": 57,
         "name": "primeape",
         "baseExperience": 159,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 2,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -9363,8 +8957,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -9377,12 +8970,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -9399,8 +8988,7 @@
         "name": "growlithe",
         "baseExperience": 70,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 34,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -9511,8 +9099,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -9525,12 +9112,8 @@
                 "value": 45
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 50
             },
             {
                 "name": "SPEED",
@@ -9540,20 +9123,17 @@
         "types": [
             9
         ],
-        "evolutions": [
-            {
-                "pokemonId": 59,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 59,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 59,
         "name": "arcanine",
         "baseExperience": 194,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 34,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -9659,8 +9239,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -9673,12 +9252,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -9695,8 +9270,7 @@
         "name": "poliwag",
         "baseExperience": 60,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 3,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 25
@@ -9812,8 +9386,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -9826,11 +9399,7 @@
                 "value": 40
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 40
             },
             {
@@ -9841,20 +9410,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 61,
-                "requiredLevel": 25
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 61,
+            "requiredLevel": 25
+        }]
     },
     {
         "id": 61,
         "name": "poliwhirl",
         "baseExperience": 135,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 3,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 26
@@ -10015,8 +9581,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -10029,11 +9594,7 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 50
             },
             {
@@ -10044,20 +9605,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 62,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 62,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 62,
         "name": "poliwrath",
         "baseExperience": 230,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 3,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -10208,8 +9766,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -10222,12 +9779,8 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 90
             },
             {
                 "name": "SPEED",
@@ -10245,8 +9798,7 @@
         "name": "abra",
         "baseExperience": 62,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -10367,8 +9919,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 25
             },
@@ -10381,12 +9932,8 @@
                 "value": 15
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 105
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -10396,20 +9943,17 @@
         "types": [
             13
         ],
-        "evolutions": [
-            {
-                "pokemonId": 64,
-                "requiredLevel": 16
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 64,
+            "requiredLevel": 16
+        }]
     },
     {
         "id": 64,
         "name": "kadabra",
         "baseExperience": 140,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -10560,8 +10104,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -10574,12 +10117,8 @@
                 "value": 30
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 120
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -10589,20 +10128,17 @@
         "types": [
             13
         ],
-        "evolutions": [
-            {
-                "pokemonId": 65,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 65,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 65,
         "name": "alakazam",
         "baseExperience": 225,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -10758,8 +10294,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -10772,12 +10307,8 @@
                 "value": 45
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 135
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 95
             },
             {
                 "name": "SPEED",
@@ -10794,8 +10325,7 @@
         "name": "machop",
         "baseExperience": 61,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 2,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -10931,8 +10461,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 70
             },
@@ -10945,11 +10474,7 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 35
             },
             {
@@ -10960,20 +10485,17 @@
         "types": [
             2
         ],
-        "evolutions": [
-            {
-                "pokemonId": 67,
-                "requiredLevel": 28
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 67,
+            "requiredLevel": 28
+        }]
     },
     {
         "id": 67,
         "name": "machoke",
         "baseExperience": 142,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 2,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -11109,8 +10631,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -11123,12 +10644,8 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 60
             },
             {
                 "name": "SPEED",
@@ -11138,20 +10655,17 @@
         "types": [
             2
         ],
-        "evolutions": [
-            {
-                "pokemonId": 68,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 68,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 68,
         "name": "machamp",
         "baseExperience": 227,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 2,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -11292,8 +10806,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -11306,12 +10819,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 85
             },
             {
                 "name": "SPEED",
@@ -11328,8 +10837,7 @@
         "name": "bellsprout",
         "baseExperience": 60,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -11445,8 +10953,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -11459,12 +10966,8 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 30
             },
             {
                 "name": "SPEED",
@@ -11475,20 +10978,17 @@
             11,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 70,
-                "requiredLevel": 21
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 70,
+            "requiredLevel": 21
+        }]
     },
     {
         "id": 70,
         "name": "weepinbell",
         "baseExperience": 137,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -11604,8 +11104,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -11618,12 +11117,8 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -11634,20 +11129,17 @@
             11,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 71,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 71,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 71,
         "name": "victreebel",
         "baseExperience": 221,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -11758,8 +11250,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -11772,12 +11263,8 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -11795,8 +11282,7 @@
         "name": "tentacool",
         "baseExperience": 67,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -11932,8 +11418,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -11946,12 +11431,8 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 100
             },
             {
                 "name": "SPEED",
@@ -11962,20 +11443,17 @@
             10,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 73,
-                "requiredLevel": 30
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 73,
+            "requiredLevel": 30
+        }]
     },
     {
         "id": 73,
         "name": "tentacruel",
         "baseExperience": 180,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -12116,8 +11594,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -12130,12 +11607,8 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 80
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 120
             },
             {
                 "name": "SPEED",
@@ -12153,8 +11626,7 @@
         "name": "geodude",
         "baseExperience": 60,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -12290,8 +11762,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -12304,11 +11775,7 @@
                 "value": 100
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 30
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 30
             },
             {
@@ -12320,20 +11787,17 @@
             6,
             5
         ],
-        "evolutions": [
-            {
-                "pokemonId": 75,
-                "requiredLevel": 25
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 75,
+            "requiredLevel": 25
+        }]
     },
     {
         "id": 75,
         "name": "graveler",
         "baseExperience": 137,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -12469,8 +11933,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -12483,11 +11946,7 @@
                 "value": 115
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 45
             },
             {
@@ -12499,20 +11958,17 @@
             6,
             5
         ],
-        "evolutions": [
-            {
-                "pokemonId": 76,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 76,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 76,
         "name": "golem",
         "baseExperience": 223,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -12658,8 +12114,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -12672,12 +12127,8 @@
                 "value": 130
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 55
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 65
             },
             {
                 "name": "SPEED",
@@ -12695,8 +12146,7 @@
         "name": "ponyta",
         "baseExperience": 82,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 23,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 32
@@ -12802,8 +12252,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -12816,11 +12265,7 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 65
             },
             {
@@ -12831,20 +12276,17 @@
         "types": [
             9
         ],
-        "evolutions": [
-            {
-                "pokemonId": 78,
-                "requiredLevel": 40
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 78,
+            "requiredLevel": 40
+        }]
     },
     {
         "id": 78,
         "name": "rapidash",
         "baseExperience": 175,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 23,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -12955,8 +12397,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -12969,11 +12410,7 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 80
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 80
             },
             {
@@ -12991,8 +12428,7 @@
         "name": "slowpoke",
         "baseExperience": 63,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 6,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -13168,8 +12604,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -13182,11 +12617,7 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 40
             },
             {
@@ -13198,20 +12629,17 @@
             10,
             13
         ],
-        "evolutions": [
-            {
-                "pokemonId": 80,
-                "requiredLevel": 37
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 80,
+            "requiredLevel": 37
+        }]
     },
     {
         "id": 80,
         "name": "slowbro",
         "baseExperience": 172,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -13422,8 +12850,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 95
             },
@@ -13436,12 +12863,8 @@
                 "value": 110
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -13459,8 +12882,7 @@
         "name": "magnemite",
         "baseExperience": 65,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -13566,8 +12988,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 25
             },
@@ -13580,12 +13001,8 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 95
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -13595,20 +13012,17 @@
         "types": [
             12
         ],
-        "evolutions": [
-            {
-                "pokemonId": 82,
-                "requiredLevel": 30
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 82,
+            "requiredLevel": 30
+        }]
     },
     {
         "id": 82,
         "name": "magneton",
         "baseExperience": 163,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -13719,8 +13133,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -13733,12 +13146,8 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 120
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -13755,8 +13164,7 @@
         "name": "farfetchd",
         "baseExperience": 132,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -13877,8 +13285,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 52
             },
@@ -13891,12 +13298,8 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 58
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 62
             },
             {
                 "name": "SPEED",
@@ -13914,8 +13317,7 @@
         "name": "doduo",
         "baseExperience": 62,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 18,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -14021,8 +13423,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 35
             },
@@ -14035,11 +13436,7 @@
                 "value": 45
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 35
             },
             {
@@ -14051,20 +13448,17 @@
             1,
             3
         ],
-        "evolutions": [
-            {
-                "pokemonId": 85,
-                "requiredLevel": 31
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 85,
+            "requiredLevel": 31
+        }]
     },
     {
         "id": 85,
         "name": "dodrio",
         "baseExperience": 165,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 18,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -14175,8 +13569,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -14189,11 +13582,7 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 60
             },
             {
@@ -14212,8 +13601,7 @@
         "name": "seel",
         "baseExperience": 65,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 6,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -14324,8 +13712,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -14338,12 +13725,8 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -14353,20 +13736,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 87,
-                "requiredLevel": 34
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 87,
+            "requiredLevel": 34
+        }]
     },
     {
         "id": 87,
         "name": "dewgong",
         "baseExperience": 166,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 6,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -14482,8 +13862,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -14496,12 +13875,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 95
             },
             {
                 "name": "SPEED",
@@ -14519,8 +13894,7 @@
         "name": "grimer",
         "baseExperience": 65,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -14631,8 +14005,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -14645,12 +14018,8 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 50
             },
             {
                 "name": "SPEED",
@@ -14660,20 +14029,17 @@
         "types": [
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 89,
-                "requiredLevel": 38
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 89,
+            "requiredLevel": 38
+        }]
     },
     {
         "id": 89,
         "name": "muk",
         "baseExperience": 175,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -14789,8 +14155,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 105
             },
@@ -14803,12 +14168,8 @@
                 "value": 75
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 100
             },
             {
                 "name": "SPEED",
@@ -14825,8 +14186,7 @@
         "name": "shellder",
         "baseExperience": 61,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -14957,8 +14317,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 30
             },
@@ -14971,12 +14330,8 @@
                 "value": 100
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 25
             },
             {
                 "name": "SPEED",
@@ -14986,20 +14341,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 91,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 91,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 91,
         "name": "cloyster",
         "baseExperience": 184,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 36,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -15130,8 +14482,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -15144,12 +14495,8 @@
                 "value": 180
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -15167,8 +14514,7 @@
         "name": "gastly",
         "baseExperience": 62,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 72,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -15264,8 +14610,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 30
             },
@@ -15278,12 +14623,8 @@
                 "value": 30
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 35
             },
             {
                 "name": "SPEED",
@@ -15294,20 +14635,17 @@
             8,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 93,
-                "requiredLevel": 25
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 93,
+            "requiredLevel": 25
+        }]
     },
     {
         "id": 93,
         "name": "haunter",
         "baseExperience": 142,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 72,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -15403,8 +14741,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 45
             },
@@ -15417,12 +14754,8 @@
                 "value": 45
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 115
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -15433,20 +14766,17 @@
             8,
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 94,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 94,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 94,
         "name": "gengar",
         "baseExperience": 225,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -15602,8 +14932,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -15616,12 +14945,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 130
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -15639,8 +14964,7 @@
         "name": "onix",
         "baseExperience": 77,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 20,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 15
@@ -15761,8 +15085,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 35
             },
@@ -15775,12 +15098,8 @@
                 "value": 160
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 30
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -15798,8 +15117,7 @@
         "name": "drowzee",
         "baseExperience": 66,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -15960,8 +15278,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -15974,12 +15291,8 @@
                 "value": 45
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 43
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 90
             },
             {
                 "name": "SPEED",
@@ -15989,20 +15302,17 @@
         "types": [
             13
         ],
-        "evolutions": [
-            {
-                "pokemonId": 97,
-                "requiredLevel": 26
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 97,
+            "requiredLevel": 26
+        }]
     },
     {
         "id": 97,
         "name": "hypno",
         "baseExperience": 169,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -16168,8 +15478,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 85
             },
@@ -16182,12 +15491,8 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 73
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 115
             },
             {
                 "name": "SPEED",
@@ -16204,8 +15509,7 @@
         "name": "krabby",
         "baseExperience": 65,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 11,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 20
@@ -16331,8 +15635,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 30
             },
@@ -16345,11 +15648,7 @@
                 "value": 90
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 25
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 25
             },
             {
@@ -16360,20 +15659,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 99,
-                "requiredLevel": 28
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 99,
+            "requiredLevel": 28
+        }]
     },
     {
         "id": 99,
         "name": "kingler",
         "baseExperience": 166,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 11,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -16504,8 +15800,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -16518,11 +15813,7 @@
                 "value": 115
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 50
             },
             {
@@ -16540,8 +15831,7 @@
         "name": "voltorb",
         "baseExperience": 66,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -16647,8 +15937,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -16661,11 +15950,7 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 55
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 55
             },
             {
@@ -16676,20 +15961,17 @@
         "types": [
             12
         ],
-        "evolutions": [
-            {
-                "pokemonId": 101,
-                "requiredLevel": 30
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 101,
+            "requiredLevel": 30
+        }]
     },
     {
         "id": 101,
         "name": "electrode",
         "baseExperience": 172,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -16805,8 +16087,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -16819,11 +16100,7 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 80
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 80
             },
             {
@@ -16841,8 +16118,7 @@
         "name": "exeggcute",
         "baseExperience": 65,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 36,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -16958,8 +16234,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -16972,12 +16247,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -16988,20 +16259,17 @@
             11,
             13
         ],
-        "evolutions": [
-            {
-                "pokemonId": 103,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 103,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 103,
         "name": "exeggutor",
         "baseExperience": 186,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 23,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 28
@@ -17117,8 +16385,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 95
             },
@@ -17131,12 +16398,8 @@
                 "value": 85
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 125
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -17154,8 +16417,7 @@
         "name": "cubone",
         "baseExperience": 64,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -17321,8 +16583,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -17335,12 +16596,8 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 50
             },
             {
                 "name": "SPEED",
@@ -17350,20 +16607,17 @@
         "types": [
             5
         ],
-        "evolutions": [
-            {
-                "pokemonId": 105,
-                "requiredLevel": 28
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 105,
+            "requiredLevel": 28
+        }]
     },
     {
         "id": 105,
         "name": "marowak",
         "baseExperience": 149,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -17534,8 +16788,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -17548,12 +16801,8 @@
                 "value": 110
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -17570,8 +16819,7 @@
         "name": "hitmonlee",
         "baseExperience": 159,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -17697,8 +16945,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -17711,12 +16958,8 @@
                 "value": 53
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 110
             },
             {
                 "name": "SPEED",
@@ -17733,8 +16976,7 @@
         "name": "hitmonchan",
         "baseExperience": 159,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 4,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -17855,8 +17097,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 50
             },
@@ -17869,12 +17110,8 @@
                 "value": 79
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 110
             },
             {
                 "name": "SPEED",
@@ -17891,8 +17128,7 @@
         "name": "lickitung",
         "baseExperience": 77,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -18078,8 +17314,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -18092,12 +17327,8 @@
                 "value": 75
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -18114,8 +17345,7 @@
         "name": "koffing",
         "baseExperience": 68,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -18201,8 +17431,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -18215,12 +17444,8 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -18230,20 +17455,17 @@
         "types": [
             4
         ],
-        "evolutions": [
-            {
-                "pokemonId": 110,
-                "requiredLevel": 35
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 110,
+            "requiredLevel": 35
+        }]
     },
     {
         "id": 110,
         "name": "weezing",
         "baseExperience": 172,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -18334,8 +17556,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -18348,12 +17569,8 @@
                 "value": 120
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -18370,8 +17587,7 @@
         "name": "rhyhorn",
         "baseExperience": 69,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 23,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 30
@@ -18497,8 +17713,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -18511,11 +17726,7 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 30
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 30
             },
             {
@@ -18527,20 +17738,17 @@
             5,
             6
         ],
-        "evolutions": [
-            {
-                "pokemonId": 112,
-                "requiredLevel": 42
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 112,
+            "requiredLevel": 42
+        }]
     },
     {
         "id": 112,
         "name": "rhydon",
         "baseExperience": 170,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -18726,8 +17934,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 105
             },
@@ -18740,11 +17947,7 @@
                 "value": 120
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 45
             },
             {
@@ -18763,8 +17966,7 @@
         "name": "chansey",
         "baseExperience": 395,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -18985,8 +18187,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 250
             },
@@ -18999,12 +18200,8 @@
                 "value": 5
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 105
             },
             {
                 "name": "SPEED",
@@ -19021,8 +18218,7 @@
         "name": "tangela",
         "baseExperience": 87,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -19148,8 +18344,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -19162,12 +18357,8 @@
                 "value": 115
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 40
             },
             {
                 "name": "SPEED",
@@ -19184,8 +18375,7 @@
         "name": "kangaskhan",
         "baseExperience": 172,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 4,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -19356,8 +18546,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 105
             },
@@ -19370,12 +18559,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -19392,8 +18577,7 @@
         "name": "horsea",
         "baseExperience": 59,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 36,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -19499,8 +18683,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 30
             },
@@ -19513,12 +18696,8 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 25
             },
             {
                 "name": "SPEED",
@@ -19528,20 +18707,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 117,
-                "requiredLevel": 32
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 117,
+            "requiredLevel": 32
+        }]
     },
     {
         "id": 117,
         "name": "seadra",
         "baseExperience": 154,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 36,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -19652,8 +18828,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -19666,12 +18841,8 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 95
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -19688,8 +18859,7 @@
         "name": "goldeen",
         "baseExperience": 64,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 30,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 24
@@ -19810,8 +18980,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 45
             },
@@ -19824,12 +18993,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 35
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 50
             },
             {
                 "name": "SPEED",
@@ -19839,20 +19004,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 119,
-                "requiredLevel": 33
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 119,
+            "requiredLevel": 33
+        }]
     },
     {
         "id": 119,
         "name": "seaking",
         "baseExperience": 158,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 30,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 24
@@ -19978,8 +19140,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -19992,12 +19153,8 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -20014,8 +19171,7 @@
         "name": "staryu",
         "baseExperience": 68,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -20171,8 +19327,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 30
             },
@@ -20185,12 +19340,8 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -20200,20 +19351,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 121,
-                "requiredLevel": null
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 121,
+            "requiredLevel": null
+        }]
     },
     {
         "id": 121,
         "name": "starmie",
         "baseExperience": 182,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -20354,8 +19502,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -20368,12 +19515,8 @@
                 "value": 85
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 85
             },
             {
                 "name": "SPEED",
@@ -20391,8 +19534,7 @@
         "name": "mr-mime",
         "baseExperience": 161,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 3,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 31
@@ -20553,8 +19695,7 @@
                 "levelLearnedAt": 47
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 40
             },
@@ -20567,12 +19708,8 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 120
             },
             {
                 "name": "SPEED",
@@ -20589,8 +19726,7 @@
         "name": "scyther",
         "baseExperience": 100,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 14,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 35
@@ -20691,8 +19827,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 70
             },
@@ -20705,12 +19840,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 55
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 80
             },
             {
                 "name": "SPEED",
@@ -20728,8 +19859,7 @@
         "name": "jynx",
         "baseExperience": 159,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -20890,8 +20020,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -20904,12 +20033,8 @@
                 "value": 35
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 115
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 95
             },
             {
                 "name": "SPEED",
@@ -20927,8 +20052,7 @@
         "name": "electabuzz",
         "baseExperience": 172,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -21099,8 +20223,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -21113,12 +20236,8 @@
                 "value": 57
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 95
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 85
             },
             {
                 "name": "SPEED",
@@ -21135,8 +20254,7 @@
         "name": "magmar",
         "baseExperience": 173,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -21287,8 +20405,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -21301,12 +20418,8 @@
                 "value": 57
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 85
             },
             {
                 "name": "SPEED",
@@ -21323,8 +20436,7 @@
         "name": "pinsir",
         "baseExperience": 175,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 11,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -21435,8 +20547,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -21449,12 +20560,8 @@
                 "value": 100
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 55
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -21471,8 +20578,7 @@
         "name": "tauros",
         "baseExperience": 172,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 23,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 21
@@ -21598,8 +20704,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 75
             },
@@ -21612,12 +20717,8 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 40
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -21634,8 +20735,7 @@
         "name": "magikarp",
         "baseExperience": 40,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 15
@@ -21646,8 +20746,7 @@
                 "levelLearnedAt": 1
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 20
             },
@@ -21660,12 +20759,8 @@
                 "value": 55
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 15
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 20
             },
             {
                 "name": "SPEED",
@@ -21675,20 +20770,17 @@
         "types": [
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 130,
-                "requiredLevel": 20
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 130,
+            "requiredLevel": 20
+        }]
     },
     {
         "id": 130,
         "name": "gyarados",
         "baseExperience": 189,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -21824,8 +20916,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 95
             },
@@ -21838,12 +20929,8 @@
                 "value": 79
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 100
             },
             {
                 "name": "SPEED",
@@ -21861,8 +20948,7 @@
         "name": "lapras",
         "baseExperience": 187,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 32,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -22018,8 +21104,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 130
             },
@@ -22032,12 +21117,8 @@
                 "value": 80
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 95
             },
             {
                 "name": "SPEED",
@@ -22055,15 +21136,12 @@
         "name": "ditto",
         "baseExperience": 101,
         "abilities": [],
-        "moves": [
-            {
-                "moveId": 144,
-                "moveLearnMethod": "LEVEL_UP",
-                "levelLearnedAt": 1
-            }
-        ],
-        "stats": [
-            {
+        "moves": [{
+            "moveId": 144,
+            "moveLearnMethod": "LEVEL_UP",
+            "levelLearnedAt": 1
+        }],
+        "stats": [{
                 "name": "HP",
                 "value": 48
             },
@@ -22076,11 +21154,7 @@
                 "value": 48
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 48
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 48
             },
             {
@@ -22098,8 +21172,7 @@
         "name": "eevee",
         "baseExperience": 65,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 28,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -22200,8 +21273,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 55
             },
@@ -22214,12 +21286,8 @@
                 "value": 50
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 45
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 65
             },
             {
                 "name": "SPEED",
@@ -22229,8 +21297,7 @@
         "types": [
             1
         ],
-        "evolutions": [
-            {
+        "evolutions": [{
                 "pokemonId": 134,
                 "requiredLevel": null
             },
@@ -22249,8 +21316,7 @@
         "name": "vaporeon",
         "baseExperience": 184,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 28,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -22396,8 +21462,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 130
             },
@@ -22410,12 +21475,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 110
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 95
             },
             {
                 "name": "SPEED",
@@ -22432,8 +21493,7 @@
         "name": "jolteon",
         "baseExperience": 184,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 24,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 42
@@ -22564,8 +21624,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -22578,12 +21637,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 110
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 95
             },
             {
                 "name": "SPEED",
@@ -22600,8 +21655,7 @@
         "name": "flareon",
         "baseExperience": 184,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 28,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -22727,8 +21781,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -22741,12 +21794,8 @@
                 "value": 60
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 95
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 110
             },
             {
                 "name": "SPEED",
@@ -22763,8 +21812,7 @@
         "name": "porygon",
         "baseExperience": 79,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 33,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -22910,8 +21958,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 65
             },
@@ -22924,12 +21971,8 @@
                 "value": 70
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 85
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -22946,8 +21989,7 @@
         "name": "omanyte",
         "baseExperience": 71,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 30,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 34
@@ -23053,8 +22095,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 35
             },
@@ -23067,12 +22108,8 @@
                 "value": 100
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 90
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 55
             },
             {
                 "name": "SPEED",
@@ -23083,20 +22120,17 @@
             6,
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 139,
-                "requiredLevel": 40
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 139,
+            "requiredLevel": 40
+        }]
     },
     {
         "id": 139,
         "name": "omastar",
         "baseExperience": 173,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 30,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -23227,8 +22261,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 70
             },
@@ -23241,12 +22274,8 @@
                 "value": 125
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 115
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -23264,8 +22293,7 @@
         "name": "kabuto",
         "baseExperience": 71,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -23376,8 +22404,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 30
             },
@@ -23390,12 +22417,8 @@
                 "value": 90
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 55
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 45
             },
             {
                 "name": "SPEED",
@@ -23406,20 +22429,17 @@
             6,
             10
         ],
-        "evolutions": [
-            {
-                "pokemonId": 141,
-                "requiredLevel": 40
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 141,
+            "requiredLevel": 40
+        }]
     },
     {
         "id": 141,
         "name": "kabutops",
         "baseExperience": 173,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 10,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -23570,8 +22590,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 60
             },
@@ -23584,12 +22603,8 @@
                 "value": 105
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 70
             },
             {
                 "name": "SPEED",
@@ -23607,8 +22622,7 @@
         "name": "aerodactyl",
         "baseExperience": 180,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -23719,8 +22733,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 80
             },
@@ -23733,12 +22746,8 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 60
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 75
             },
             {
                 "name": "SPEED",
@@ -23756,8 +22765,7 @@
         "name": "snorlax",
         "baseExperience": 189,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -23953,8 +22961,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 160
             },
@@ -23967,12 +22974,8 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 65
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 110
             },
             {
                 "name": "SPEED",
@@ -23989,8 +22992,7 @@
         "name": "articuno",
         "baseExperience": 261,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -24106,8 +23108,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -24120,12 +23121,8 @@
                 "value": 100
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 95
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 125
             },
             {
                 "name": "SPEED",
@@ -24143,8 +23140,7 @@
         "name": "zapdos",
         "baseExperience": 261,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -24265,8 +23261,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -24279,12 +23274,8 @@
                 "value": 85
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 125
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 90
             },
             {
                 "name": "SPEED",
@@ -24302,8 +23293,7 @@
         "name": "moltres",
         "baseExperience": 261,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -24409,8 +23399,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 90
             },
@@ -24423,12 +23412,8 @@
                 "value": 90
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 125
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 85
             },
             {
                 "name": "SPEED",
@@ -24446,8 +23431,7 @@
         "name": "dratini",
         "baseExperience": 60,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 21,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 30
@@ -24588,8 +23572,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 41
             },
@@ -24602,11 +23585,7 @@
                 "value": 45
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 50
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 50
             },
             {
@@ -24617,20 +23596,17 @@
         "types": [
             15
         ],
-        "evolutions": [
-            {
-                "pokemonId": 148,
-                "requiredLevel": 30
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 148,
+            "requiredLevel": 30
+        }]
     },
     {
         "id": 148,
         "name": "dragonair",
         "baseExperience": 147,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 21,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 35
@@ -24776,8 +23752,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 61
             },
@@ -24790,11 +23765,7 @@
                 "value": 65
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 70
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 70
             },
             {
@@ -24805,20 +23776,17 @@
         "types": [
             15
         ],
-        "evolutions": [
-            {
-                "pokemonId": 149,
-                "requiredLevel": 55
-            }
-        ]
+        "evolutions": [{
+            "pokemonId": 149,
+            "requiredLevel": 55
+        }]
     },
     {
         "id": 149,
         "name": "dragonite",
         "baseExperience": 270,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 13,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -24974,8 +23942,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 91
             },
@@ -24988,11 +23955,7 @@
                 "value": 95
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 100
             },
             {
@@ -25011,8 +23974,7 @@
         "name": "mewtwo",
         "baseExperience": 306,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 5,
                 "moveLearnMethod": "MACHINE",
                 "levelLearnedAt": 0
@@ -25228,8 +24190,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 106
             },
@@ -25242,12 +24203,8 @@
                 "value": 90
             },
             {
-                "name": "SPECIAL_ATTACK",
+                "name": "SPECIAL",
                 "value": 154
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
-                "value": 90
             },
             {
                 "name": "SPEED",
@@ -25264,8 +24221,7 @@
         "name": "mew",
         "baseExperience": 270,
         "abilities": [],
-        "moves": [
-            {
+        "moves": [{
                 "moveId": 1,
                 "moveLearnMethod": "LEVEL_UP",
                 "levelLearnedAt": 1
@@ -25551,8 +24507,7 @@
                 "levelLearnedAt": 0
             }
         ],
-        "stats": [
-            {
+        "stats": [{
                 "name": "HP",
                 "value": 100
             },
@@ -25565,11 +24520,7 @@
                 "value": 100
             },
             {
-                "name": "SPECIAL_ATTACK",
-                "value": 100
-            },
-            {
-                "name": "SPECIAL_DEFENSE",
+                "name": "SPECIAL",
                 "value": 100
             },
             {
